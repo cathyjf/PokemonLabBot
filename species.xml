@@ -1,0 +1,8070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shoddybattle>
+	<species id="0" name="Bulbasaur">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">49</base>
+			<base stat="def">49</base>
+			<base stat="spd">45</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">65</base>
+			<mass>6.9</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="1" name="Ivysaur">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">62</base>
+			<base stat="def">63</base>
+			<base stat="spd">60</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>13.0</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="2" name="Venusaur">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">82</base>
+			<base stat="def">83</base>
+			<base stat="spd">80</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>100.0</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="3" name="Charmander">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">39</base>
+			<base stat="atk">52</base>
+			<base stat="def">43</base>
+			<base stat="spd">65</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">50</base>
+			<mass>8.5</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="4" name="Charmeleon">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">58</base>
+			<base stat="atk">64</base>
+			<base stat="def">58</base>
+			<base stat="spd">80</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">65</base>
+			<mass>19.0</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="5" name="Charizard">
+		<type>Fire</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">78</base>
+			<base stat="atk">84</base>
+			<base stat="def">78</base>
+			<base stat="spd">100</base>
+			<base stat="satk">109</base>
+			<base stat="sdef">85</base>
+			<mass>90.5</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="6" name="Squirtle">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">44</base>
+			<base stat="atk">48</base>
+			<base stat="def">65</base>
+			<base stat="spd">43</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">64</base>
+			<mass>9.0</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="7" name="Wartortle">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">59</base>
+			<base stat="atk">63</base>
+			<base stat="def">80</base>
+			<base stat="spd">58</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">80</base>
+			<mass>22.5</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="8" name="Blastoise">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">79</base>
+			<base stat="atk">83</base>
+			<base stat="def">100</base>
+			<base stat="spd">78</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">105</base>
+			<mass>85.5</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="9" name="Caterpie">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">30</base>
+			<base stat="def">35</base>
+			<base stat="spd">45</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">20</base>
+			<mass>2.9</mass>
+		</stats>
+		<abilities>
+			<ability>Shield Dust</ability>
+		</abilities>
+	</species>
+	<species id="10" name="Metapod">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">20</base>
+			<base stat="def">55</base>
+			<base stat="spd">30</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">25</base>
+			<mass>9.9</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="11" name="Butterfree">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">45</base>
+			<base stat="def">50</base>
+			<base stat="spd">70</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>32.0</mass>
+		</stats>
+		<abilities>
+			<ability>Compoundeyes</ability>
+		</abilities>
+	</species>
+	<species id="12" name="Weedle">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">35</base>
+			<base stat="def">30</base>
+			<base stat="spd">50</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">20</base>
+			<mass>3.2</mass>
+		</stats>
+		<abilities>
+			<ability>Shield Dust</ability>
+		</abilities>
+	</species>
+	<species id="13" name="Kakuna">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">25</base>
+			<base stat="def">50</base>
+			<base stat="spd">35</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">25</base>
+			<mass>10.0</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="14" name="Beedrill">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">80</base>
+			<base stat="def">40</base>
+			<base stat="spd">75</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">80</base>
+			<mass>29.5</mass>
+		</stats>
+		<abilities>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="15" name="Pidgey">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">45</base>
+			<base stat="def">40</base>
+			<base stat="spd">56</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>1.8</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+			<ability>Tangled Feet</ability>
+		</abilities>
+	</species>
+	<species id="16" name="Pidgeotto">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">63</base>
+			<base stat="atk">60</base>
+			<base stat="def">55</base>
+			<base stat="spd">71</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+			<ability>Tangled Feet</ability>
+		</abilities>
+	</species>
+	<species id="17" name="Pidgeot">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">83</base>
+			<base stat="atk">80</base>
+			<base stat="def">75</base>
+			<base stat="spd">91</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">70</base>
+			<mass>39.5</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+			<ability>Tangled Feet</ability>
+		</abilities>
+	</species>
+	<species id="18" name="Rattata">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">56</base>
+			<base stat="def">35</base>
+			<base stat="spd">72</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">35</base>
+			<mass>3.5</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="19" name="Raticate">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">81</base>
+			<base stat="def">60</base>
+			<base stat="spd">97</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">70</base>
+			<mass>18.5</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="20" name="Spearow">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">60</base>
+			<base stat="def">30</base>
+			<base stat="spd">70</base>
+			<base stat="satk">31</base>
+			<base stat="sdef">31</base>
+			<mass>2.0</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="21" name="Fearow">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">90</base>
+			<base stat="def">65</base>
+			<base stat="spd">100</base>
+			<base stat="satk">61</base>
+			<base stat="sdef">61</base>
+			<mass>38.0</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="22" name="Ekans">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">60</base>
+			<base stat="def">44</base>
+			<base stat="spd">55</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">54</base>
+			<mass>6.9</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="23" name="Arbok">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">85</base>
+			<base stat="def">69</base>
+			<base stat="spd">80</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">79</base>
+			<mass>65.0</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="24" name="Pikachu">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">55</base>
+			<base stat="def">30</base>
+			<base stat="spd">90</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">40</base>
+			<mass>6.0</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="25" name="Raichu">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">90</base>
+			<base stat="def">55</base>
+			<base stat="spd">100</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">80</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="26" name="Sandshrew">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">75</base>
+			<base stat="def">85</base>
+			<base stat="spd">40</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">30</base>
+			<mass>12.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="27" name="Sandslash">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">100</base>
+			<base stat="def">110</base>
+			<base stat="spd">65</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">55</base>
+			<mass>29.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="28" name="Nidoran-f">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">47</base>
+			<base stat="def">52</base>
+			<base stat="spd">41</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>7.0</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="29" name="Nidorina">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">62</base>
+			<base stat="def">67</base>
+			<base stat="spd">56</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>20.0</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="30" name="Nidoqueen">
+		<type>Poison</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">82</base>
+			<base stat="def">87</base>
+			<base stat="spd">76</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">85</base>
+			<mass>60.0</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="31" name="Nidoran-m">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">46</base>
+			<base stat="atk">57</base>
+			<base stat="def">40</base>
+			<base stat="spd">50</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>9.0</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="32" name="Nidorino">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">61</base>
+			<base stat="atk">72</base>
+			<base stat="def">57</base>
+			<base stat="spd">65</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>19.5</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="33" name="Nidoking">
+		<type>Poison</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">81</base>
+			<base stat="atk">92</base>
+			<base stat="def">77</base>
+			<base stat="spd">85</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">75</base>
+			<mass>62.0</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="34" name="Clefairy">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">45</base>
+			<base stat="def">48</base>
+			<base stat="spd">35</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">65</base>
+			<mass>7.5</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+			<ability>Magic Guard</ability>
+		</abilities>
+	</species>
+	<species id="35" name="Clefable">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">70</base>
+			<base stat="def">73</base>
+			<base stat="spd">60</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">90</base>
+			<mass>40.0</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+			<ability>Magic Guard</ability>
+		</abilities>
+	</species>
+	<species id="36" name="Vulpix">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">38</base>
+			<base stat="atk">41</base>
+			<base stat="def">40</base>
+			<base stat="spd">65</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">65</base>
+			<mass>9.9</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+		</abilities>
+	</species>
+	<species id="37" name="Ninetales">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">73</base>
+			<base stat="atk">76</base>
+			<base stat="def">75</base>
+			<base stat="spd">100</base>
+			<base stat="satk">81</base>
+			<base stat="sdef">100</base>
+			<mass>19.9</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+		</abilities>
+	</species>
+	<species id="38" name="Jigglypuff">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">115</base>
+			<base stat="atk">45</base>
+			<base stat="def">20</base>
+			<base stat="spd">20</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">25</base>
+			<mass>5.5</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+		</abilities>
+	</species>
+	<species id="39" name="Wigglytuff">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">140</base>
+			<base stat="atk">70</base>
+			<base stat="def">45</base>
+			<base stat="spd">45</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">50</base>
+			<mass>12.0</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+		</abilities>
+	</species>
+	<species id="40" name="Zubat">
+		<type>Poison</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">45</base>
+			<base stat="def">35</base>
+			<base stat="spd">55</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">40</base>
+			<mass>7.5</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="41" name="Golbat">
+		<type>Poison</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">80</base>
+			<base stat="def">70</base>
+			<base stat="spd">90</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">75</base>
+			<mass>55.0</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="42" name="Oddish">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">50</base>
+			<base stat="def">55</base>
+			<base stat="spd">30</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">65</base>
+			<mass>5.4</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="43" name="Gloom">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">65</base>
+			<base stat="def">70</base>
+			<base stat="spd">40</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">75</base>
+			<mass>8.6</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="44" name="Vileplume">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">80</base>
+			<base stat="def">85</base>
+			<base stat="spd">50</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">90</base>
+			<mass>18.6</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="45" name="Paras">
+		<type>Bug</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">70</base>
+			<base stat="def">55</base>
+			<base stat="spd">25</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">55</base>
+			<mass>5.4</mass>
+		</stats>
+		<abilities>
+			<ability>Effect Spore</ability>
+			<ability>Dry Skin</ability>
+		</abilities>
+	</species>
+	<species id="46" name="Parasect">
+		<type>Bug</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">95</base>
+			<base stat="def">80</base>
+			<base stat="spd">30</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">80</base>
+			<mass>29.5</mass>
+		</stats>
+		<abilities>
+			<ability>Effect Spore</ability>
+			<ability>Dry Skin</ability>
+		</abilities>
+	</species>
+	<species id="47" name="Venonat">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">55</base>
+			<base stat="def">50</base>
+			<base stat="spd">45</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">55</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Compoundeyes</ability>
+			<ability>Tinted Lens</ability>
+		</abilities>
+	</species>
+	<species id="48" name="Venomoth">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">65</base>
+			<base stat="def">60</base>
+			<base stat="spd">90</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">75</base>
+			<mass>12.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shield Dust</ability>
+			<ability>Tinted Lens</ability>
+		</abilities>
+	</species>
+	<species id="49" name="Diglett">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">10</base>
+			<base stat="atk">55</base>
+			<base stat="def">25</base>
+			<base stat="spd">95</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">45</base>
+			<mass>0.8</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+			<ability>Arena Trap</ability>
+		</abilities>
+	</species>
+	<species id="50" name="Dugtrio">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">80</base>
+			<base stat="def">50</base>
+			<base stat="spd">120</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">70</base>
+			<mass>33.3</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+			<ability>Arena Trap</ability>
+		</abilities>
+	</species>
+	<species id="51" name="Meowth">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">45</base>
+			<base stat="def">35</base>
+			<base stat="spd">90</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>4.2</mass>
+		</stats>
+		<abilities>
+			<ability>Pickup</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="52" name="Persian">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">70</base>
+			<base stat="def">60</base>
+			<base stat="spd">115</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">65</base>
+			<mass>32.0</mass>
+		</stats>
+		<abilities>
+			<ability>Limber</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="53" name="Psyduck">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">52</base>
+			<base stat="def">48</base>
+			<base stat="spd">55</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">50</base>
+			<mass>19.6</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Cloud Nine</ability>
+		</abilities>
+	</species>
+	<species id="54" name="Golduck">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">82</base>
+			<base stat="def">78</base>
+			<base stat="spd">85</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">80</base>
+			<mass>76.6</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Cloud Nine</ability>
+		</abilities>
+	</species>
+	<species id="55" name="Mankey">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">80</base>
+			<base stat="def">35</base>
+			<base stat="spd">70</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">45</base>
+			<mass>28.0</mass>
+		</stats>
+		<abilities>
+			<ability>Vital Spirit</ability>
+			<ability>Anger Point</ability>
+		</abilities>
+	</species>
+	<species id="56" name="Primeape">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">105</base>
+			<base stat="def">60</base>
+			<base stat="spd">95</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">70</base>
+			<mass>32.0</mass>
+		</stats>
+		<abilities>
+			<ability>Vital Spirit</ability>
+			<ability>Anger Point</ability>
+		</abilities>
+	</species>
+	<species id="57" name="Growlithe">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">70</base>
+			<base stat="def">45</base>
+			<base stat="spd">60</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">50</base>
+			<mass>19.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="58" name="Arcanine">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">110</base>
+			<base stat="def">80</base>
+			<base stat="spd">95</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">80</base>
+			<mass>155.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="59" name="Poliwag">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">50</base>
+			<base stat="def">40</base>
+			<base stat="spd">90</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>12.4</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="60" name="Poliwhirl">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">65</base>
+			<base stat="def">65</base>
+			<base stat="spd">90</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>20.0</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="61" name="Poliwrath">
+		<type>Water</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">85</base>
+			<base stat="def">95</base>
+			<base stat="spd">70</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">90</base>
+			<mass>54.0</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="62" name="Abra">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">25</base>
+			<base stat="atk">20</base>
+			<base stat="def">15</base>
+			<base stat="spd">90</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">55</base>
+			<mass>19.5</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="63" name="Kadabra">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">35</base>
+			<base stat="def">30</base>
+			<base stat="spd">105</base>
+			<base stat="satk">120</base>
+			<base stat="sdef">70</base>
+			<mass>56.5</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="64" name="Alakazam">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">50</base>
+			<base stat="def">45</base>
+			<base stat="spd">120</base>
+			<base stat="satk">135</base>
+			<base stat="sdef">85</base>
+			<mass>48.0</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="65" name="Machop">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">80</base>
+			<base stat="def">50</base>
+			<base stat="spd">35</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>19.5</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+			<ability>No Guard</ability>
+		</abilities>
+	</species>
+	<species id="66" name="Machoke">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">100</base>
+			<base stat="def">70</base>
+			<base stat="spd">45</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">60</base>
+			<mass>70.5</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+			<ability>No Guard</ability>
+		</abilities>
+	</species>
+	<species id="67" name="Machamp">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">130</base>
+			<base stat="def">80</base>
+			<base stat="spd">55</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">85</base>
+			<mass>130.0</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+			<ability>No Guard</ability>
+		</abilities>
+	</species>
+	<species id="68" name="Bellsprout">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">75</base>
+			<base stat="def">35</base>
+			<base stat="spd">40</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">30</base>
+			<mass>4.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="69" name="Weepinbell">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">90</base>
+			<base stat="def">50</base>
+			<base stat="spd">55</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">45</base>
+			<mass>6.4</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="70" name="Victreebel">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">105</base>
+			<base stat="def">65</base>
+			<base stat="spd">70</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">60</base>
+			<mass>15.5</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="71" name="Tentacool">
+		<type>Water</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">40</base>
+			<base stat="def">35</base>
+			<base stat="spd">70</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">100</base>
+			<mass>45.5</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+			<ability>Liquid Ooze</ability>
+		</abilities>
+	</species>
+	<species id="72" name="Tentacruel">
+		<type>Water</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">70</base>
+			<base stat="def">65</base>
+			<base stat="spd">100</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">120</base>
+			<mass>55.0</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+			<ability>Liquid Ooze</ability>
+		</abilities>
+	</species>
+	<species id="73" name="Geodude">
+		<type>Rock</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">80</base>
+			<base stat="def">100</base>
+			<base stat="spd">20</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>20.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="74" name="Graveler">
+		<type>Rock</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">95</base>
+			<base stat="def">115</base>
+			<base stat="spd">35</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">45</base>
+			<mass>105.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="75" name="Golem">
+		<type>Rock</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">110</base>
+			<base stat="def">130</base>
+			<base stat="spd">45</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">65</base>
+			<mass>300.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="76" name="Ponyta">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">85</base>
+			<base stat="def">55</base>
+			<base stat="spd">90</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">65</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+			<ability>Run Away</ability>
+		</abilities>
+	</species>
+	<species id="77" name="Rapidash">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">100</base>
+			<base stat="def">70</base>
+			<base stat="spd">105</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>95.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+			<ability>Run Away</ability>
+		</abilities>
+	</species>
+	<species id="78" name="Slowpoke">
+		<type>Water</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">65</base>
+			<base stat="def">65</base>
+			<base stat="spd">15</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>36.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Own Tempo</ability>
+		</abilities>
+	</species>
+	<species id="79" name="Slowbro">
+		<type>Water</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">75</base>
+			<base stat="def">110</base>
+			<base stat="spd">30</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">80</base>
+			<mass>78.5</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Own Tempo</ability>
+		</abilities>
+	</species>
+	<species id="80" name="Magnemite">
+		<type>Electric</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">25</base>
+			<base stat="atk">35</base>
+			<base stat="def">70</base>
+			<base stat="spd">45</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">55</base>
+			<mass>6.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Magnet Pull</ability>
+		</abilities>
+	</species>
+	<species id="81" name="Magneton">
+		<type>Electric</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">60</base>
+			<base stat="def">95</base>
+			<base stat="spd">70</base>
+			<base stat="satk">120</base>
+			<base stat="sdef">70</base>
+			<mass>60.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Magnet Pull</ability>
+		</abilities>
+	</species>
+	<species id="82" name="Farfetch'd">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">52</base>
+			<base stat="atk">65</base>
+			<base stat="def">55</base>
+			<base stat="spd">60</base>
+			<base stat="satk">58</base>
+			<base stat="sdef">62</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="83" name="Doduo">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">85</base>
+			<base stat="def">45</base>
+			<base stat="spd">75</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>39.2</mass>
+		</stats>
+		<abilities>
+			<ability>Early Bird</ability>
+			<ability>Run Away</ability>
+		</abilities>
+	</species>
+	<species id="84" name="Dodrio">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">110</base>
+			<base stat="def">70</base>
+			<base stat="spd">100</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>85.2</mass>
+		</stats>
+		<abilities>
+			<ability>Early Bird</ability>
+			<ability>Run Away</ability>
+		</abilities>
+	</species>
+	<species id="85" name="Seel">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">45</base>
+			<base stat="def">55</base>
+			<base stat="spd">45</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">70</base>
+			<mass>90.0</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Hydration</ability>
+		</abilities>
+	</species>
+	<species id="86" name="Dewgong">
+		<type>Water</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">70</base>
+			<base stat="def">80</base>
+			<base stat="spd">70</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">95</base>
+			<mass>120.0</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Hydration</ability>
+		</abilities>
+	</species>
+	<species id="87" name="Grimer">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">80</base>
+			<base stat="def">50</base>
+			<base stat="spd">25</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">50</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Stench</ability>
+			<ability>Sticky Hold</ability>
+		</abilities>
+	</species>
+	<species id="88" name="Muk">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">105</base>
+			<base stat="atk">105</base>
+			<base stat="def">75</base>
+			<base stat="spd">50</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">100</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Stench</ability>
+			<ability>Sticky Hold</ability>
+		</abilities>
+	</species>
+	<species id="89" name="Shellder">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">65</base>
+			<base stat="def">100</base>
+			<base stat="spd">40</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">25</base>
+			<mass>4.0</mass>
+		</stats>
+		<abilities>
+			<ability>Shell Armor</ability>
+			<ability>Skill Link</ability>
+		</abilities>
+	</species>
+	<species id="90" name="Cloyster">
+		<type>Water</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">95</base>
+			<base stat="def">180</base>
+			<base stat="spd">70</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">45</base>
+			<mass>132.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shell Armor</ability>
+			<ability>Skill Link</ability>
+		</abilities>
+	</species>
+	<species id="91" name="Gastly">
+		<type>Ghost</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">35</base>
+			<base stat="def">30</base>
+			<base stat="spd">80</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">35</base>
+			<mass>0.1</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="92" name="Haunter">
+		<type>Ghost</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">50</base>
+			<base stat="def">45</base>
+			<base stat="spd">95</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">55</base>
+			<mass>0.1</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="93" name="Gengar">
+		<type>Ghost</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">65</base>
+			<base stat="def">60</base>
+			<base stat="spd">110</base>
+			<base stat="satk">130</base>
+			<base stat="sdef">75</base>
+			<mass>40.5</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="94" name="Onix">
+		<type>Rock</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">45</base>
+			<base stat="def">160</base>
+			<base stat="spd">70</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">45</base>
+			<mass>210.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="95" name="Drowzee">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">48</base>
+			<base stat="def">45</base>
+			<base stat="spd">42</base>
+			<base stat="satk">43</base>
+			<base stat="sdef">90</base>
+			<mass>32.4</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Forewarn</ability>
+		</abilities>
+	</species>
+	<species id="96" name="Hypno">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">73</base>
+			<base stat="def">70</base>
+			<base stat="spd">67</base>
+			<base stat="satk">73</base>
+			<base stat="sdef">115</base>
+			<mass>75.6</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Forewarn</ability>
+		</abilities>
+	</species>
+	<species id="97" name="Krabby">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">105</base>
+			<base stat="def">90</base>
+			<base stat="spd">50</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">25</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Hyper Cutter</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="98" name="Kingler">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">130</base>
+			<base stat="def">115</base>
+			<base stat="spd">75</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>60.0</mass>
+		</stats>
+		<abilities>
+			<ability>Hyper Cutter</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="99" name="Voltorb">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">30</base>
+			<base stat="def">50</base>
+			<base stat="spd">100</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>10.4</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+			<ability>Soundproof</ability>
+		</abilities>
+	</species>
+	<species id="100" name="Electrode">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">50</base>
+			<base stat="def">70</base>
+			<base stat="spd">140</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>66.6</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+			<ability>Soundproof</ability>
+		</abilities>
+	</species>
+	<species id="101" name="Exeggcute">
+		<type>Grass</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">40</base>
+			<base stat="def">80</base>
+			<base stat="spd">40</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">45</base>
+			<mass>2.5</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="102" name="Exeggutor">
+		<type>Grass</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">95</base>
+			<base stat="def">85</base>
+			<base stat="spd">55</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">65</base>
+			<mass>120.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="103" name="Cubone">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">50</base>
+			<base stat="def">95</base>
+			<base stat="spd">35</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">50</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Lightningrod</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="104" name="Marowak">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">80</base>
+			<base stat="def">110</base>
+			<base stat="spd">45</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">80</base>
+			<mass>45.0</mass>
+		</stats>
+		<abilities>
+			<ability>Lightningrod</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="105" name="Hitmonlee">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">120</base>
+			<base stat="def">53</base>
+			<base stat="spd">87</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">110</base>
+			<mass>49.8</mass>
+		</stats>
+		<abilities>
+			<ability>Limber</ability>
+			<ability>Reckless</ability>
+		</abilities>
+	</species>
+	<species id="106" name="Hitmonchan">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">105</base>
+			<base stat="def">79</base>
+			<base stat="spd">76</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">110</base>
+			<mass>50.2</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+			<ability>Iron Fist</ability>
+		</abilities>
+	</species>
+	<species id="107" name="Lickitung">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">55</base>
+			<base stat="def">75</base>
+			<base stat="spd">30</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">75</base>
+			<mass>65.5</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Own Tempo</ability>
+		</abilities>
+	</species>
+	<species id="108" name="Koffing">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">65</base>
+			<base stat="def">95</base>
+			<base stat="spd">35</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">45</base>
+			<mass>1.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="109" name="Weezing">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">90</base>
+			<base stat="def">120</base>
+			<base stat="spd">60</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">70</base>
+			<mass>9.5</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="110" name="Rhyhorn">
+		<type>Ground</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">85</base>
+			<base stat="def">95</base>
+			<base stat="spd">25</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>115.0</mass>
+		</stats>
+		<abilities>
+			<ability>Lightningrod</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="111" name="Rhydon">
+		<type>Ground</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">105</base>
+			<base stat="atk">130</base>
+			<base stat="def">120</base>
+			<base stat="spd">40</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">45</base>
+			<mass>120.0</mass>
+		</stats>
+		<abilities>
+			<ability>Lightningrod</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="112" name="Chansey">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">250</base>
+			<base stat="atk">5</base>
+			<base stat="def">5</base>
+			<base stat="spd">50</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">105</base>
+			<mass>34.6</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Serene Grace</ability>
+		</abilities>
+	</species>
+	<species id="113" name="Tangela">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">55</base>
+			<base stat="def">115</base>
+			<base stat="spd">60</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">40</base>
+			<mass>35.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Leaf Guard</ability>
+		</abilities>
+	</species>
+	<species id="114" name="Kangaskhan">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">105</base>
+			<base stat="atk">95</base>
+			<base stat="def">80</base>
+			<base stat="spd">90</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">80</base>
+			<mass>80.0</mass>
+		</stats>
+		<abilities>
+			<ability>Early Bird</ability>
+			<ability>Scrappy</ability>
+		</abilities>
+	</species>
+	<species id="115" name="Horsea">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">40</base>
+			<base stat="def">70</base>
+			<base stat="spd">60</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">25</base>
+			<mass>8.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="116" name="Seadra">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">65</base>
+			<base stat="def">95</base>
+			<base stat="spd">85</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">45</base>
+			<mass>25.0</mass>
+		</stats>
+		<abilities>
+			<ability>Poison Point</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="117" name="Goldeen">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">67</base>
+			<base stat="def">60</base>
+			<base stat="spd">63</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">50</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Water Veil</ability>
+		</abilities>
+	</species>
+	<species id="118" name="Seaking">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">92</base>
+			<base stat="def">65</base>
+			<base stat="spd">68</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">80</base>
+			<mass>39.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Water Veil</ability>
+		</abilities>
+	</species>
+	<species id="119" name="Staryu">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">45</base>
+			<base stat="def">55</base>
+			<base stat="spd">85</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">55</base>
+			<mass>34.5</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Illuminate</ability>
+		</abilities>
+	</species>
+	<species id="120" name="Starmie">
+		<type>Water</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">75</base>
+			<base stat="def">85</base>
+			<base stat="spd">115</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">85</base>
+			<mass>80.0</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Illuminate</ability>
+		</abilities>
+	</species>
+	<species id="121" name="Mr. Mime">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">45</base>
+			<base stat="def">65</base>
+			<base stat="spd">90</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">120</base>
+			<mass>54.5</mass>
+		</stats>
+		<abilities>
+			<ability>Soundproof</ability>
+			<ability>Filter</ability>
+		</abilities>
+	</species>
+	<species id="122" name="Scyther">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">110</base>
+			<base stat="def">80</base>
+			<base stat="spd">105</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">80</base>
+			<mass>56.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swarm</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="123" name="Jynx">
+		<type>Ice</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">50</base>
+			<base stat="def">35</base>
+			<base stat="spd">95</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">95</base>
+			<mass>40.6</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Forewarn</ability>
+		</abilities>
+	</species>
+	<species id="124" name="Electabuzz">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">83</base>
+			<base stat="def">57</base>
+			<base stat="spd">105</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">85</base>
+			<mass>30.0</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="125" name="Magmar">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">95</base>
+			<base stat="def">57</base>
+			<base stat="spd">93</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">85</base>
+			<mass>44.5</mass>
+		</stats>
+		<abilities>
+			<ability>Flame Body</ability>
+		</abilities>
+	</species>
+	<species id="126" name="Pinsir">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">125</base>
+			<base stat="def">100</base>
+			<base stat="spd">85</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">70</base>
+			<mass>55.0</mass>
+		</stats>
+		<abilities>
+			<ability>Hyper Cutter</ability>
+			<ability>Mold Breaker</ability>
+		</abilities>
+	</species>
+	<species id="127" name="Tauros">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">100</base>
+			<base stat="def">95</base>
+			<base stat="spd">110</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">70</base>
+			<mass>88.4</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Anger Point</ability>
+		</abilities>
+	</species>
+	<species id="128" name="Magikarp">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">20</base>
+			<base stat="atk">10</base>
+			<base stat="def">55</base>
+			<base stat="spd">80</base>
+			<base stat="satk">15</base>
+			<base stat="sdef">20</base>
+			<mass>10.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="129" name="Gyarados">
+		<type>Water</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">125</base>
+			<base stat="def">79</base>
+			<base stat="spd">81</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">100</base>
+			<mass>235.0</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="130" name="Lapras">
+		<type>Water</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">130</base>
+			<base stat="atk">85</base>
+			<base stat="def">80</base>
+			<base stat="spd">60</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">95</base>
+			<mass>220.0</mass>
+		</stats>
+		<abilities>
+			<ability>Water Absorb</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="131" name="Ditto">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">48</base>
+			<base stat="atk">48</base>
+			<base stat="def">48</base>
+			<base stat="spd">48</base>
+			<base stat="satk">48</base>
+			<base stat="sdef">48</base>
+			<mass>4.0</mass>
+		</stats>
+		<abilities>
+			<ability>Limber</ability>
+		</abilities>
+	</species>
+	<species id="132" name="Eevee">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">55</base>
+			<base stat="def">50</base>
+			<base stat="spd">55</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">65</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Adaptability</ability>
+		</abilities>
+	</species>
+	<species id="133" name="Vaporeon">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">130</base>
+			<base stat="atk">65</base>
+			<base stat="def">60</base>
+			<base stat="spd">65</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">95</base>
+			<mass>29.0</mass>
+		</stats>
+		<abilities>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="134" name="Jolteon">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">65</base>
+			<base stat="def">60</base>
+			<base stat="spd">130</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">95</base>
+			<mass>24.5</mass>
+		</stats>
+		<abilities>
+			<ability>Volt Absorb</ability>
+		</abilities>
+	</species>
+	<species id="135" name="Flareon">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">130</base>
+			<base stat="def">60</base>
+			<base stat="spd">65</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">110</base>
+			<mass>25.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+		</abilities>
+	</species>
+	<species id="136" name="Porygon">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">60</base>
+			<base stat="def">70</base>
+			<base stat="spd">40</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">75</base>
+			<mass>36.5</mass>
+		</stats>
+		<abilities>
+			<ability>Trace</ability>
+			<ability>Download</ability>
+		</abilities>
+	</species>
+	<species id="137" name="Omanyte">
+		<type>Rock</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">40</base>
+			<base stat="def">100</base>
+			<base stat="spd">35</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">55</base>
+			<mass>7.5</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="138" name="Omastar">
+		<type>Rock</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">60</base>
+			<base stat="def">125</base>
+			<base stat="spd">55</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">70</base>
+			<mass>35.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="139" name="Kabuto">
+		<type>Rock</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">80</base>
+			<base stat="def">90</base>
+			<base stat="spd">55</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">45</base>
+			<mass>11.5</mass>
+		</stats>
+		<abilities>
+			<ability>Battle Armor</ability>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="140" name="Kabutops">
+		<type>Rock</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">115</base>
+			<base stat="def">105</base>
+			<base stat="spd">80</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">70</base>
+			<mass>40.5</mass>
+		</stats>
+		<abilities>
+			<ability>Battle Armor</ability>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="141" name="Aerodactyl">
+		<type>Rock</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">105</base>
+			<base stat="def">65</base>
+			<base stat="spd">130</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">75</base>
+			<mass>59.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="142" name="Snorlax">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">160</base>
+			<base stat="atk">110</base>
+			<base stat="def">65</base>
+			<base stat="spd">30</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">110</base>
+			<mass>460.0</mass>
+		</stats>
+		<abilities>
+			<ability>Immunity</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="143" name="Articuno">
+		<type>Ice</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">85</base>
+			<base stat="def">100</base>
+			<base stat="spd">85</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">125</base>
+			<mass>55.4</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="144" name="Zapdos">
+		<type>Electric</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">90</base>
+			<base stat="def">85</base>
+			<base stat="spd">100</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">90</base>
+			<mass>52.6</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="145" name="Moltres">
+		<type>Fire</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">100</base>
+			<base stat="def">90</base>
+			<base stat="spd">90</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">85</base>
+			<mass>60.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="146" name="Dratini">
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">41</base>
+			<base stat="atk">64</base>
+			<base stat="def">45</base>
+			<base stat="spd">50</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>3.3</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="147" name="Dragonair">
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">61</base>
+			<base stat="atk">84</base>
+			<base stat="def">65</base>
+			<base stat="spd">70</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">70</base>
+			<mass>16.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="148" name="Dragonite">
+		<type>Dragon</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">91</base>
+			<base stat="atk">134</base>
+			<base stat="def">95</base>
+			<base stat="spd">80</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>210.0</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="149" name="Mewtwo">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">106</base>
+			<base stat="atk">110</base>
+			<base stat="def">90</base>
+			<base stat="spd">130</base>
+			<base stat="satk">154</base>
+			<base stat="sdef">90</base>
+			<mass>122.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="150" name="Mew">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>4.0</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+		</abilities>
+	</species>
+	<species id="151" name="Chikorita">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">49</base>
+			<base stat="def">65</base>
+			<base stat="spd">45</base>
+			<base stat="satk">49</base>
+			<base stat="sdef">65</base>
+			<mass>6.4</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="152" name="Bayleef">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">62</base>
+			<base stat="def">80</base>
+			<base stat="spd">60</base>
+			<base stat="satk">63</base>
+			<base stat="sdef">80</base>
+			<mass>15.8</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="153" name="Meganium">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">82</base>
+			<base stat="def">100</base>
+			<base stat="spd">80</base>
+			<base stat="satk">83</base>
+			<base stat="sdef">100</base>
+			<mass>100.5</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="154" name="Cyndaquil">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">39</base>
+			<base stat="atk">52</base>
+			<base stat="def">43</base>
+			<base stat="spd">65</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">50</base>
+			<mass>7.9</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="155" name="Quilava">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">58</base>
+			<base stat="atk">64</base>
+			<base stat="def">58</base>
+			<base stat="spd">80</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">65</base>
+			<mass>19.0</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="156" name="Typhlosion">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">78</base>
+			<base stat="atk">84</base>
+			<base stat="def">78</base>
+			<base stat="spd">100</base>
+			<base stat="satk">109</base>
+			<base stat="sdef">85</base>
+			<mass>79.5</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="157" name="Totodile">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">64</base>
+			<base stat="spd">43</base>
+			<base stat="satk">44</base>
+			<base stat="sdef">48</base>
+			<mass>9.5</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="158" name="Croconaw">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">80</base>
+			<base stat="def">80</base>
+			<base stat="spd">58</base>
+			<base stat="satk">59</base>
+			<base stat="sdef">63</base>
+			<mass>25.0</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="159" name="Feraligatr">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">105</base>
+			<base stat="def">100</base>
+			<base stat="spd">78</base>
+			<base stat="satk">79</base>
+			<base stat="sdef">83</base>
+			<mass>88.8</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="160" name="Sentret">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">46</base>
+			<base stat="def">34</base>
+			<base stat="spd">20</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">45</base>
+			<mass>6.0</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="161" name="Furret">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">76</base>
+			<base stat="def">64</base>
+			<base stat="spd">90</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">55</base>
+			<mass>32.5</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="162" name="Hoothoot">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">30</base>
+			<base stat="def">30</base>
+			<base stat="spd">50</base>
+			<base stat="satk">36</base>
+			<base stat="sdef">56</base>
+			<mass>21.2</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="163" name="Noctowl">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">50</base>
+			<base stat="def">50</base>
+			<base stat="spd">70</base>
+			<base stat="satk">76</base>
+			<base stat="sdef">96</base>
+			<mass>40.8</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="164" name="Ledyba">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">20</base>
+			<base stat="def">30</base>
+			<base stat="spd">55</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">80</base>
+			<mass>10.8</mass>
+		</stats>
+		<abilities>
+			<ability>Early Bird</ability>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="165" name="Ledian">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">35</base>
+			<base stat="def">50</base>
+			<base stat="spd">85</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">110</base>
+			<mass>35.6</mass>
+		</stats>
+		<abilities>
+			<ability>Early Bird</ability>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="166" name="Spinarak">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">60</base>
+			<base stat="def">40</base>
+			<base stat="spd">30</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>8.5</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="167" name="Ariados">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">90</base>
+			<base stat="def">70</base>
+			<base stat="spd">40</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>33.5</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="168" name="Crobat">
+		<type>Poison</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">90</base>
+			<base stat="def">80</base>
+			<base stat="spd">130</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">80</base>
+			<mass>75.0</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+		</abilities>
+	</species>
+	<species id="169" name="Chinchou">
+		<type>Water</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">38</base>
+			<base stat="def">38</base>
+			<base stat="spd">67</base>
+			<base stat="satk">56</base>
+			<base stat="sdef">56</base>
+			<mass>12.0</mass>
+		</stats>
+		<abilities>
+			<ability>Volt Absorb</ability>
+			<ability>Illuminate</ability>
+		</abilities>
+	</species>
+	<species id="170" name="Lanturn">
+		<type>Water</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">125</base>
+			<base stat="atk">58</base>
+			<base stat="def">58</base>
+			<base stat="spd">67</base>
+			<base stat="satk">76</base>
+			<base stat="sdef">76</base>
+			<mass>22.5</mass>
+		</stats>
+		<abilities>
+			<ability>Volt Absorb</ability>
+			<ability>Illuminate</ability>
+		</abilities>
+	</species>
+	<species id="171" name="Pichu">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">20</base>
+			<base stat="atk">40</base>
+			<base stat="def">15</base>
+			<base stat="spd">60</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>2.0</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="172" name="Cleffa">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">25</base>
+			<base stat="def">28</base>
+			<base stat="spd">15</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">55</base>
+			<mass>3.0</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+			<ability>Magic Guard</ability>
+		</abilities>
+	</species>
+	<species id="173" name="Igglybuff">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">30</base>
+			<base stat="def">15</base>
+			<base stat="spd">15</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">20</base>
+			<mass>1.0</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+		</abilities>
+	</species>
+	<species id="174" name="Togepi">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">20</base>
+			<base stat="def">65</base>
+			<base stat="spd">20</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">65</base>
+			<mass>1.5</mass>
+		</stats>
+		<abilities>
+			<ability>Serene Grace</ability>
+			<ability>Hustle</ability>
+		</abilities>
+	</species>
+	<species id="175" name="Togetic">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">40</base>
+			<base stat="def">85</base>
+			<base stat="spd">40</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">105</base>
+			<mass>3.2</mass>
+		</stats>
+		<abilities>
+			<ability>Serene Grace</ability>
+			<ability>Hustle</ability>
+		</abilities>
+	</species>
+	<species id="176" name="Natu">
+		<type>Psychic</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">50</base>
+			<base stat="def">45</base>
+			<base stat="spd">70</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">45</base>
+			<mass>2.0</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="177" name="Xatu">
+		<type>Psychic</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">75</base>
+			<base stat="def">70</base>
+			<base stat="spd">95</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">70</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="178" name="Mareep">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">40</base>
+			<base stat="def">40</base>
+			<base stat="spd">35</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">45</base>
+			<mass>7.8</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="179" name="Flaaffy">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">55</base>
+			<base stat="def">55</base>
+			<base stat="spd">45</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">60</base>
+			<mass>13.3</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="180" name="Ampharos">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">75</base>
+			<base stat="def">75</base>
+			<base stat="spd">55</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">90</base>
+			<mass>61.5</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="181" name="Bellossom">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">80</base>
+			<base stat="def">85</base>
+			<base stat="spd">50</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">100</base>
+			<mass>5.8</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="182" name="Marill">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">20</base>
+			<base stat="def">50</base>
+			<base stat="spd">40</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">50</base>
+			<mass>8.5</mass>
+		</stats>
+		<abilities>
+			<ability>Huge Power</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="183" name="Azumarill">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">50</base>
+			<base stat="def">80</base>
+			<base stat="spd">50</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">80</base>
+			<mass>28.5</mass>
+		</stats>
+		<abilities>
+			<ability>Huge Power</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="184" name="Sudowoodo">
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">100</base>
+			<base stat="def">115</base>
+			<base stat="spd">30</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">65</base>
+			<mass>38.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="185" name="Politoed">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">75</base>
+			<base stat="def">75</base>
+			<base stat="spd">70</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">100</base>
+			<mass>33.9</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="186" name="Hoppip">
+		<type>Grass</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">35</base>
+			<base stat="def">40</base>
+			<base stat="spd">50</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">55</base>
+			<mass>0.5</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Leaf Guard</ability>
+		</abilities>
+	</species>
+	<species id="187" name="Skiploom">
+		<type>Grass</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">45</base>
+			<base stat="def">50</base>
+			<base stat="spd">80</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">65</base>
+			<mass>1.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Leaf Guard</ability>
+		</abilities>
+	</species>
+	<species id="188" name="Jumpluff">
+		<type>Grass</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">55</base>
+			<base stat="def">70</base>
+			<base stat="spd">110</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">85</base>
+			<mass>3.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Leaf Guard</ability>
+		</abilities>
+	</species>
+	<species id="189" name="Aipom">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">70</base>
+			<base stat="def">55</base>
+			<base stat="spd">85</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">55</base>
+			<mass>11.5</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Pickup</ability>
+		</abilities>
+	</species>
+	<species id="190" name="Sunkern">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">30</base>
+			<base stat="def">30</base>
+			<base stat="spd">30</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>1.8</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Solar Power</ability>
+		</abilities>
+	</species>
+	<species id="191" name="Sunflora">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">75</base>
+			<base stat="def">55</base>
+			<base stat="spd">30</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">85</base>
+			<mass>8.5</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Solar Power</ability>
+		</abilities>
+	</species>
+	<species id="192" name="Yanma">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">65</base>
+			<base stat="def">45</base>
+			<base stat="spd">95</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">45</base>
+			<mass>38.0</mass>
+		</stats>
+		<abilities>
+			<ability>Speed Boost</ability>
+			<ability>Compoundeyes</ability>
+		</abilities>
+	</species>
+	<species id="193" name="Wooper">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">45</base>
+			<base stat="def">45</base>
+			<base stat="spd">15</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">25</base>
+			<mass>8.5</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="194" name="Quagsire">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">85</base>
+			<base stat="def">85</base>
+			<base stat="spd">35</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">65</base>
+			<mass>75.0</mass>
+		</stats>
+		<abilities>
+			<ability>Damp</ability>
+			<ability>Water Absorb</ability>
+		</abilities>
+	</species>
+	<species id="195" name="Espeon">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">65</base>
+			<base stat="def">60</base>
+			<base stat="spd">110</base>
+			<base stat="satk">130</base>
+			<base stat="sdef">95</base>
+			<mass>26.5</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+		</abilities>
+	</species>
+	<species id="196" name="Umbreon">
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">65</base>
+			<base stat="def">110</base>
+			<base stat="spd">65</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">130</base>
+			<mass>27.0</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+		</abilities>
+	</species>
+	<species id="197" name="Murkrow">
+		<type>Dark</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">85</base>
+			<base stat="def">42</base>
+			<base stat="spd">91</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">42</base>
+			<mass>2.1</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Super Luck</ability>
+		</abilities>
+	</species>
+	<species id="198" name="Slowking">
+		<type>Water</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">75</base>
+			<base stat="def">80</base>
+			<base stat="spd">30</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">110</base>
+			<mass>79.5</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Own Tempo</ability>
+		</abilities>
+	</species>
+	<species id="199" name="Misdreavus">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">60</base>
+			<base stat="def">60</base>
+			<base stat="spd">85</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">85</base>
+			<mass>1.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="200" name="Unown">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">48</base>
+			<base stat="atk">72</base>
+			<base stat="def">48</base>
+			<base stat="spd">48</base>
+			<base stat="satk">72</base>
+			<base stat="sdef">48</base>
+			<mass>5.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="201" name="Wobbuffet">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">190</base>
+			<base stat="atk">33</base>
+			<base stat="def">58</base>
+			<base stat="spd">33</base>
+			<base stat="satk">33</base>
+			<base stat="sdef">58</base>
+			<mass>28.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shadow Tag</ability>
+		</abilities>
+	</species>
+	<species id="202" name="Girafarig">
+		<type>Normal</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">80</base>
+			<base stat="def">65</base>
+			<base stat="spd">85</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">65</base>
+			<mass>41.5</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="203" name="Pineco">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">90</base>
+			<base stat="spd">15</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>7.2</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+		</abilities>
+	</species>
+	<species id="204" name="Forretress">
+		<type>Bug</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">90</base>
+			<base stat="def">140</base>
+			<base stat="spd">40</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>125.8</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+		</abilities>
+	</species>
+	<species id="205" name="Dunsparce">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">70</base>
+			<base stat="def">70</base>
+			<base stat="spd">45</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">65</base>
+			<mass>14.0</mass>
+		</stats>
+		<abilities>
+			<ability>Serene Grace</ability>
+			<ability>Run Away</ability>
+		</abilities>
+	</species>
+	<species id="206" name="Gligar">
+		<type>Ground</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">75</base>
+			<base stat="def">105</base>
+			<base stat="spd">85</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">65</base>
+			<mass>64.8</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+			<ability>Hyper Cutter</ability>
+		</abilities>
+	</species>
+	<species id="207" name="Steelix">
+		<type>Steel</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">85</base>
+			<base stat="def">200</base>
+			<base stat="spd">30</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">65</base>
+			<mass>400.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="208" name="Snubbull">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">80</base>
+			<base stat="def">50</base>
+			<base stat="spd">30</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>7.8</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Run Away</ability>
+		</abilities>
+	</species>
+	<species id="209" name="Granbull">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">120</base>
+			<base stat="def">75</base>
+			<base stat="spd">45</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>48.7</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Quick Feet</ability>
+		</abilities>
+	</species>
+	<species id="210" name="Qwilfish">
+		<type>Water</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">95</base>
+			<base stat="def">75</base>
+			<base stat="spd">85</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>3.9</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Poison Point</ability>
+		</abilities>
+	</species>
+	<species id="211" name="Scizor">
+		<type>Bug</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">130</base>
+			<base stat="def">100</base>
+			<base stat="spd">65</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">80</base>
+			<mass>118.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swarm</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="212" name="Shuckle">
+		<type>Bug</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">20</base>
+			<base stat="atk">10</base>
+			<base stat="def">230</base>
+			<base stat="spd">5</base>
+			<base stat="satk">10</base>
+			<base stat="sdef">230</base>
+			<mass>20.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Gluttony</ability>
+		</abilities>
+	</species>
+	<species id="213" name="Heracross">
+		<type>Bug</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">125</base>
+			<base stat="def">75</base>
+			<base stat="spd">85</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">95</base>
+			<mass>54.0</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="214" name="Sneasel">
+		<type>Dark</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">95</base>
+			<base stat="def">55</base>
+			<base stat="spd">115</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">75</base>
+			<mass>28.0</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="215" name="Teddiursa">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">80</base>
+			<base stat="def">50</base>
+			<base stat="spd">40</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>8.8</mass>
+		</stats>
+		<abilities>
+			<ability>Pickup</ability>
+			<ability>Quick Feet</ability>
+		</abilities>
+	</species>
+	<species id="216" name="Ursaring">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">130</base>
+			<base stat="def">75</base>
+			<base stat="spd">55</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">75</base>
+			<mass>125.8</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+			<ability>Quick Feet</ability>
+		</abilities>
+	</species>
+	<species id="217" name="Slugma">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">40</base>
+			<base stat="def">40</base>
+			<base stat="spd">20</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">40</base>
+			<mass>35.0</mass>
+		</stats>
+		<abilities>
+			<ability>Magma Armor</ability>
+			<ability>Flame Body</ability>
+		</abilities>
+	</species>
+	<species id="218" name="Magcargo">
+		<type>Fire</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">50</base>
+			<base stat="def">120</base>
+			<base stat="spd">30</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>55.0</mass>
+		</stats>
+		<abilities>
+			<ability>Magma Armor</ability>
+			<ability>Flame Body</ability>
+		</abilities>
+	</species>
+	<species id="219" name="Swinub">
+		<type>Ice</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">50</base>
+			<base stat="def">40</base>
+			<base stat="spd">50</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Snow Cloak</ability>
+		</abilities>
+	</species>
+	<species id="220" name="Piloswine">
+		<type>Ice</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">80</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>55.8</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Snow Cloak</ability>
+		</abilities>
+	</species>
+	<species id="221" name="Corsola">
+		<type>Water</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">55</base>
+			<base stat="def">85</base>
+			<base stat="spd">35</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">85</base>
+			<mass>5.0</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Hustle</ability>
+		</abilities>
+	</species>
+	<species id="222" name="Remoraid">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">65</base>
+			<base stat="def">35</base>
+			<base stat="spd">65</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">35</base>
+			<mass>12.0</mass>
+		</stats>
+		<abilities>
+			<ability>Hustle</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="223" name="Octillery">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">105</base>
+			<base stat="def">75</base>
+			<base stat="spd">45</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">75</base>
+			<mass>28.5</mass>
+		</stats>
+		<abilities>
+			<ability>Suction Cups</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="224" name="Delibird">
+		<type>Ice</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">55</base>
+			<base stat="def">45</base>
+			<base stat="spd">75</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">45</base>
+			<mass>16.0</mass>
+		</stats>
+		<abilities>
+			<ability>Hustle</ability>
+			<ability>Vital Spirit</ability>
+		</abilities>
+	</species>
+	<species id="225" name="Mantine">
+		<type>Water</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">40</base>
+			<base stat="def">70</base>
+			<base stat="spd">70</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">140</base>
+			<mass>220.0</mass>
+		</stats>
+		<abilities>
+			<ability>Water Absorb</ability>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="226" name="Skarmory">
+		<type>Steel</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">80</base>
+			<base stat="def">140</base>
+			<base stat="spd">70</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">70</base>
+			<mass>50.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="227" name="Houndour">
+		<type>Dark</type>
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">60</base>
+			<base stat="def">30</base>
+			<base stat="spd">65</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">50</base>
+			<mass>10.8</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="228" name="Houndoom">
+		<type>Dark</type>
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">90</base>
+			<base stat="def">50</base>
+			<base stat="spd">95</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">80</base>
+			<mass>35.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="229" name="Kingdra">
+		<type>Water</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">95</base>
+			<base stat="def">95</base>
+			<base stat="spd">85</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">95</base>
+			<mass>152.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="230" name="Phanpy">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">60</base>
+			<base stat="def">60</base>
+			<base stat="spd">40</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>33.5</mass>
+		</stats>
+		<abilities>
+			<ability>Pickup</ability>
+		</abilities>
+	</species>
+	<species id="231" name="Donphan">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">120</base>
+			<base stat="def">120</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>120.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+		</abilities>
+	</species>
+	<species id="232" name="Porygon2">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">80</base>
+			<base stat="def">90</base>
+			<base stat="spd">60</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">95</base>
+			<mass>32.5</mass>
+		</stats>
+		<abilities>
+			<ability>Trace</ability>
+			<ability>Download</ability>
+		</abilities>
+	</species>
+	<species id="233" name="Stantler">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">73</base>
+			<base stat="atk">95</base>
+			<base stat="def">62</base>
+			<base stat="spd">85</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">65</base>
+			<mass>71.2</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Frisk</ability>
+		</abilities>
+	</species>
+	<species id="234" name="Smeargle">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">20</base>
+			<base stat="def">35</base>
+			<base stat="spd">75</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">45</base>
+			<mass>58.0</mass>
+		</stats>
+		<abilities>
+			<ability>Own Tempo</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="235" name="Tyrogue">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">35</base>
+			<base stat="def">35</base>
+			<base stat="spd">35</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>21.0</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+			<ability>Steadfast</ability>
+		</abilities>
+	</species>
+	<species id="236" name="Hitmontop">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">95</base>
+			<base stat="def">95</base>
+			<base stat="spd">70</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">110</base>
+			<mass>48.0</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="237" name="Smoochum">
+		<type>Ice</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">30</base>
+			<base stat="def">15</base>
+			<base stat="spd">65</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">65</base>
+			<mass>6.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Forewarn</ability>
+		</abilities>
+	</species>
+	<species id="238" name="Elekid">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">63</base>
+			<base stat="def">37</base>
+			<base stat="spd">95</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">55</base>
+			<mass>23.5</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+		</abilities>
+	</species>
+	<species id="239" name="Magby">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">75</base>
+			<base stat="def">37</base>
+			<base stat="spd">83</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">55</base>
+			<mass>21.4</mass>
+		</stats>
+		<abilities>
+			<ability>Flame Body</ability>
+		</abilities>
+	</species>
+	<species id="240" name="Miltank">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">80</base>
+			<base stat="def">105</base>
+			<base stat="spd">100</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">70</base>
+			<mass>75.5</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Scrappy</ability>
+		</abilities>
+	</species>
+	<species id="241" name="Blissey">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">255</base>
+			<base stat="atk">10</base>
+			<base stat="def">10</base>
+			<base stat="spd">55</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">135</base>
+			<mass>46.8</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Serene Grace</ability>
+		</abilities>
+	</species>
+	<species id="242" name="Raikou">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">85</base>
+			<base stat="def">75</base>
+			<base stat="spd">115</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">100</base>
+			<mass>178.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="243" name="Entei">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">115</base>
+			<base stat="atk">115</base>
+			<base stat="def">85</base>
+			<base stat="spd">100</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">75</base>
+			<mass>198.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="244" name="Suicune">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">75</base>
+			<base stat="def">115</base>
+			<base stat="spd">85</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">115</base>
+			<mass>187.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="245" name="Larvitar">
+		<type>Rock</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">64</base>
+			<base stat="def">50</base>
+			<base stat="spd">41</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">50</base>
+			<mass>72.0</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="246" name="Pupitar">
+		<type>Rock</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">84</base>
+			<base stat="def">70</base>
+			<base stat="spd">51</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">70</base>
+			<mass>152.0</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="247" name="Tyranitar">
+		<type>Rock</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">134</base>
+			<base stat="def">110</base>
+			<base stat="spd">61</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">100</base>
+			<mass>202.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Stream</ability>
+		</abilities>
+	</species>
+	<species id="248" name="Lugia">
+		<type>Psychic</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">106</base>
+			<base stat="atk">90</base>
+			<base stat="def">130</base>
+			<base stat="spd">110</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">154</base>
+			<mass>216.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="249" name="Ho-oh">
+		<type>Fire</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">106</base>
+			<base stat="atk">130</base>
+			<base stat="def">90</base>
+			<base stat="spd">90</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">154</base>
+			<mass>199.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="250" name="Celebi">
+		<type>Psychic</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>5.0</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+		</abilities>
+	</species>
+	<species id="251" name="Treecko">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">45</base>
+			<base stat="def">35</base>
+			<base stat="spd">70</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">55</base>
+			<mass>5.0</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="252" name="Grovyle">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">45</base>
+			<base stat="spd">95</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">65</base>
+			<mass>21.6</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="253" name="Sceptile">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">85</base>
+			<base stat="def">65</base>
+			<base stat="spd">120</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">85</base>
+			<mass>52.2</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="254" name="Torchic">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">60</base>
+			<base stat="def">40</base>
+			<base stat="spd">45</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">50</base>
+			<mass>2.5</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="255" name="Combusken">
+		<type>Fire</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">85</base>
+			<base stat="def">60</base>
+			<base stat="spd">55</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">60</base>
+			<mass>19.5</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="256" name="Blaziken">
+		<type>Fire</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">120</base>
+			<base stat="def">70</base>
+			<base stat="spd">80</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">70</base>
+			<mass>52.0</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="257" name="Mudkip">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">70</base>
+			<base stat="def">50</base>
+			<base stat="spd">40</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>7.6</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="258" name="Marshtomp">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">85</base>
+			<base stat="def">70</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">70</base>
+			<mass>28.0</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="259" name="Swampert">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">110</base>
+			<base stat="def">90</base>
+			<base stat="spd">60</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">90</base>
+			<mass>81.9</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="260" name="Poochyena">
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">55</base>
+			<base stat="def">35</base>
+			<base stat="spd">35</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>13.6</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Quick Feet</ability>
+		</abilities>
+	</species>
+	<species id="261" name="Mightyena">
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">90</base>
+			<base stat="def">70</base>
+			<base stat="spd">70</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>37.0</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Quick Feet</ability>
+		</abilities>
+	</species>
+	<species id="262" name="Zigzagoon">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">38</base>
+			<base stat="atk">30</base>
+			<base stat="def">41</base>
+			<base stat="spd">60</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">41</base>
+			<mass>17.5</mass>
+		</stats>
+		<abilities>
+			<ability>Pickup</ability>
+			<ability>Gluttony</ability>
+		</abilities>
+	</species>
+	<species id="263" name="Linoone">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">78</base>
+			<base stat="atk">70</base>
+			<base stat="def">61</base>
+			<base stat="spd">100</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">61</base>
+			<mass>32.5</mass>
+		</stats>
+		<abilities>
+			<ability>Pickup</ability>
+			<ability>Gluttony</ability>
+		</abilities>
+	</species>
+	<species id="264" name="Wurmple">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">45</base>
+			<base stat="def">35</base>
+			<base stat="spd">20</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">30</base>
+			<mass>3.6</mass>
+		</stats>
+		<abilities>
+			<ability>Shield Dust</ability>
+		</abilities>
+	</species>
+	<species id="265" name="Silcoon">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">35</base>
+			<base stat="def">55</base>
+			<base stat="spd">15</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">25</base>
+			<mass>10.0</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="266" name="Beautifly">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">70</base>
+			<base stat="def">50</base>
+			<base stat="spd">65</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">50</base>
+			<mass>28.4</mass>
+		</stats>
+		<abilities>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="267" name="Cascoon">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">35</base>
+			<base stat="def">55</base>
+			<base stat="spd">15</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">25</base>
+			<mass>11.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="268" name="Dustox">
+		<type>Bug</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">50</base>
+			<base stat="def">70</base>
+			<base stat="spd">65</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">90</base>
+			<mass>31.6</mass>
+		</stats>
+		<abilities>
+			<ability>Shield Dust</ability>
+		</abilities>
+	</species>
+	<species id="269" name="Lotad">
+		<type>Water</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">30</base>
+			<base stat="def">30</base>
+			<base stat="spd">30</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">50</base>
+			<mass>2.6</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Rain Dish</ability>
+		</abilities>
+	</species>
+	<species id="270" name="Lombre">
+		<type>Water</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">50</base>
+			<base stat="def">50</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">70</base>
+			<mass>32.5</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Rain Dish</ability>
+		</abilities>
+	</species>
+	<species id="271" name="Ludicolo">
+		<type>Water</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">70</base>
+			<base stat="def">70</base>
+			<base stat="spd">70</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">100</base>
+			<mass>55.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Rain Dish</ability>
+		</abilities>
+	</species>
+	<species id="272" name="Seedot">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">40</base>
+			<base stat="def">50</base>
+			<base stat="spd">30</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>4.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="273" name="Nuzleaf">
+		<type>Grass</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">70</base>
+			<base stat="def">40</base>
+			<base stat="spd">60</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">40</base>
+			<mass>28.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="274" name="Shiftry">
+		<type>Grass</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">100</base>
+			<base stat="def">60</base>
+			<base stat="spd">80</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">60</base>
+			<mass>59.6</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Early Bird</ability>
+		</abilities>
+	</species>
+	<species id="275" name="Taillow">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">55</base>
+			<base stat="def">30</base>
+			<base stat="spd">85</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>2.3</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="276" name="Swellow">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">85</base>
+			<base stat="def">60</base>
+			<base stat="spd">125</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>19.8</mass>
+		</stats>
+		<abilities>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="277" name="Wingull">
+		<type>Water</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">30</base>
+			<base stat="def">30</base>
+			<base stat="spd">85</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">30</base>
+			<mass>9.5</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="278" name="Pelipper">
+		<type>Water</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">50</base>
+			<base stat="def">100</base>
+			<base stat="spd">65</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">70</base>
+			<mass>28.0</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="279" name="Ralts">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">28</base>
+			<base stat="atk">25</base>
+			<base stat="def">25</base>
+			<base stat="spd">40</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">35</base>
+			<mass>6.6</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Trace</ability>
+		</abilities>
+	</species>
+	<species id="280" name="Kirlia">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">38</base>
+			<base stat="atk">35</base>
+			<base stat="def">35</base>
+			<base stat="spd">50</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">55</base>
+			<mass>20.2</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Trace</ability>
+		</abilities>
+	</species>
+	<species id="281" name="Gardevoir">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">68</base>
+			<base stat="atk">65</base>
+			<base stat="def">65</base>
+			<base stat="spd">80</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">115</base>
+			<mass>48.4</mass>
+		</stats>
+		<abilities>
+			<ability>Synchronize</ability>
+			<ability>Trace</ability>
+		</abilities>
+	</species>
+	<species id="282" name="Surskit">
+		<type>Bug</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">30</base>
+			<base stat="def">32</base>
+			<base stat="spd">65</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">52</base>
+			<mass>1.7</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="283" name="Masquerain">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">60</base>
+			<base stat="def">62</base>
+			<base stat="spd">60</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">82</base>
+			<mass>3.6</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="284" name="Shroomish">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">40</base>
+			<base stat="def">60</base>
+			<base stat="spd">35</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">60</base>
+			<mass>4.5</mass>
+		</stats>
+		<abilities>
+			<ability>Effect Spore</ability>
+			<ability>Poison Heal</ability>
+		</abilities>
+	</species>
+	<species id="285" name="Breloom">
+		<type>Grass</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">130</base>
+			<base stat="def">80</base>
+			<base stat="spd">70</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>39.2</mass>
+		</stats>
+		<abilities>
+			<ability>Effect Spore</ability>
+			<ability>Poison Heal</ability>
+		</abilities>
+	</species>
+	<species id="286" name="Slakoth">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">60</base>
+			<base stat="def">60</base>
+			<base stat="spd">30</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>24.0</mass>
+		</stats>
+		<abilities>
+			<ability>Truant</ability>
+		</abilities>
+	</species>
+	<species id="287" name="Vigoroth">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">80</base>
+			<base stat="def">80</base>
+			<base stat="spd">90</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>46.5</mass>
+		</stats>
+		<abilities>
+			<ability>Vital Spirit</ability>
+		</abilities>
+	</species>
+	<species id="288" name="Slaking">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">150</base>
+			<base stat="atk">160</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">65</base>
+			<mass>130.5</mass>
+		</stats>
+		<abilities>
+			<ability>Truant</ability>
+		</abilities>
+	</species>
+	<species id="289" name="Nincada">
+		<type>Bug</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">31</base>
+			<base stat="atk">45</base>
+			<base stat="def">90</base>
+			<base stat="spd">40</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>5.5</mass>
+		</stats>
+		<abilities>
+			<ability>Compoundeyes</ability>
+		</abilities>
+	</species>
+	<species id="290" name="Ninjask">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">61</base>
+			<base stat="atk">90</base>
+			<base stat="def">45</base>
+			<base stat="spd">160</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>12.0</mass>
+		</stats>
+		<abilities>
+			<ability>Speed Boost</ability>
+		</abilities>
+	</species>
+	<species id="291" name="Shedinja">
+		<type>Bug</type>
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">1</base>
+			<base stat="atk">90</base>
+			<base stat="def">45</base>
+			<base stat="spd">40</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>1.2</mass>
+		</stats>
+		<abilities>
+			<ability>Wonder Guard</ability>
+		</abilities>
+	</species>
+	<species id="292" name="Whismur">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">64</base>
+			<base stat="atk">51</base>
+			<base stat="def">23</base>
+			<base stat="spd">28</base>
+			<base stat="satk">51</base>
+			<base stat="sdef">23</base>
+			<mass>16.3</mass>
+		</stats>
+		<abilities>
+			<ability>Soundproof</ability>
+		</abilities>
+	</species>
+	<species id="293" name="Loudred">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">84</base>
+			<base stat="atk">71</base>
+			<base stat="def">43</base>
+			<base stat="spd">48</base>
+			<base stat="satk">71</base>
+			<base stat="sdef">43</base>
+			<mass>40.5</mass>
+		</stats>
+		<abilities>
+			<ability>Soundproof</ability>
+		</abilities>
+	</species>
+	<species id="294" name="Exploud">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">104</base>
+			<base stat="atk">91</base>
+			<base stat="def">63</base>
+			<base stat="spd">68</base>
+			<base stat="satk">91</base>
+			<base stat="sdef">63</base>
+			<mass>84.0</mass>
+		</stats>
+		<abilities>
+			<ability>Soundproof</ability>
+		</abilities>
+	</species>
+	<species id="295" name="Makuhita">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">72</base>
+			<base stat="atk">60</base>
+			<base stat="def">30</base>
+			<base stat="spd">25</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">30</base>
+			<mass>86.4</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="296" name="Hariyama">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">144</base>
+			<base stat="atk">120</base>
+			<base stat="def">60</base>
+			<base stat="spd">50</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">60</base>
+			<mass>253.8</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Guts</ability>
+		</abilities>
+	</species>
+	<species id="297" name="Azurill">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">20</base>
+			<base stat="def">40</base>
+			<base stat="spd">20</base>
+			<base stat="satk">20</base>
+			<base stat="sdef">40</base>
+			<mass>2.0</mass>
+		</stats>
+		<abilities>
+			<ability>Huge Power</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="298" name="Nosepass">
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">45</base>
+			<base stat="def">135</base>
+			<base stat="spd">30</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">90</base>
+			<mass>97.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Magnet Pull</ability>
+		</abilities>
+	</species>
+	<species id="299" name="Skitty">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">45</base>
+			<base stat="def">45</base>
+			<base stat="spd">50</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">35</base>
+			<mass>11.0</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+			<ability>Normalize</ability>
+		</abilities>
+	</species>
+	<species id="300" name="Delcatty">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">65</base>
+			<base stat="def">65</base>
+			<base stat="spd">70</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>32.6</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+			<ability>Normalize</ability>
+		</abilities>
+	</species>
+	<species id="301" name="Sableye">
+		<type>Dark</type>
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">75</base>
+			<base stat="def">75</base>
+			<base stat="spd">50</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">65</base>
+			<mass>11.0</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+			<ability>Stall</ability>
+		</abilities>
+	</species>
+	<species id="302" name="Mawile">
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">85</base>
+			<base stat="def">85</base>
+			<base stat="spd">50</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>11.5</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Hyper Cutter</ability>
+		</abilities>
+	</species>
+	<species id="303" name="Aron">
+		<type>Steel</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">70</base>
+			<base stat="def">100</base>
+			<base stat="spd">30</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>60.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="304" name="Lairon">
+		<type>Steel</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">90</base>
+			<base stat="def">140</base>
+			<base stat="spd">40</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>120.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="305" name="Aggron">
+		<type>Steel</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">110</base>
+			<base stat="def">180</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>360.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="306" name="Meditite">
+		<type>Fighting</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">40</base>
+			<base stat="def">55</base>
+			<base stat="spd">60</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">55</base>
+			<mass>11.2</mass>
+		</stats>
+		<abilities>
+			<ability>Pure Power</ability>
+		</abilities>
+	</species>
+	<species id="307" name="Medicham">
+		<type>Fighting</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">60</base>
+			<base stat="def">75</base>
+			<base stat="spd">80</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">75</base>
+			<mass>31.5</mass>
+		</stats>
+		<abilities>
+			<ability>Pure Power</ability>
+		</abilities>
+	</species>
+	<species id="308" name="Electrike">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">45</base>
+			<base stat="def">40</base>
+			<base stat="spd">65</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">40</base>
+			<mass>15.2</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+			<ability>Lightningrod</ability>
+		</abilities>
+	</species>
+	<species id="309" name="Manectric">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">75</base>
+			<base stat="def">60</base>
+			<base stat="spd">105</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">60</base>
+			<mass>40.2</mass>
+		</stats>
+		<abilities>
+			<ability>Static</ability>
+			<ability>Lightningrod</ability>
+		</abilities>
+	</species>
+	<species id="310" name="Plusle">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">50</base>
+			<base stat="def">40</base>
+			<base stat="spd">95</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">75</base>
+			<mass>4.2</mass>
+		</stats>
+		<abilities>
+			<ability>Plus</ability>
+		</abilities>
+	</species>
+	<species id="311" name="Minun">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">40</base>
+			<base stat="def">50</base>
+			<base stat="spd">95</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">85</base>
+			<mass>4.2</mass>
+		</stats>
+		<abilities>
+			<ability>Minus</ability>
+		</abilities>
+	</species>
+	<species id="312" name="Volbeat">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">73</base>
+			<base stat="def">55</base>
+			<base stat="spd">85</base>
+			<base stat="satk">47</base>
+			<base stat="sdef">75</base>
+			<mass>17.7</mass>
+		</stats>
+		<abilities>
+			<ability>Illuminate</ability>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="313" name="Illumise">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">47</base>
+			<base stat="def">55</base>
+			<base stat="spd">85</base>
+			<base stat="satk">73</base>
+			<base stat="sdef">75</base>
+			<mass>17.7</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Tinted Lens</ability>
+		</abilities>
+	</species>
+	<species id="314" name="Roselia">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">60</base>
+			<base stat="def">45</base>
+			<base stat="spd">65</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">80</base>
+			<mass>2.0</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Poison Point</ability>
+		</abilities>
+	</species>
+	<species id="315" name="Gulpin">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">43</base>
+			<base stat="def">53</base>
+			<base stat="spd">40</base>
+			<base stat="satk">43</base>
+			<base stat="sdef">53</base>
+			<mass>10.3</mass>
+		</stats>
+		<abilities>
+			<ability>Sticky Hold</ability>
+			<ability>Liquid Ooze</ability>
+		</abilities>
+	</species>
+	<species id="316" name="Swalot">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">73</base>
+			<base stat="def">83</base>
+			<base stat="spd">55</base>
+			<base stat="satk">73</base>
+			<base stat="sdef">83</base>
+			<mass>80.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sticky Hold</ability>
+			<ability>Liquid Ooze</ability>
+		</abilities>
+	</species>
+	<species id="317" name="Carvanha">
+		<type>Water</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">90</base>
+			<base stat="def">20</base>
+			<base stat="spd">65</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">20</base>
+			<mass>20.8</mass>
+		</stats>
+		<abilities>
+			<ability>Rough Skin</ability>
+		</abilities>
+	</species>
+	<species id="318" name="Sharpedo">
+		<type>Water</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">120</base>
+			<base stat="def">40</base>
+			<base stat="spd">95</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">40</base>
+			<mass>88.8</mass>
+		</stats>
+		<abilities>
+			<ability>Rough Skin</ability>
+		</abilities>
+	</species>
+	<species id="319" name="Wailmer">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">130</base>
+			<base stat="atk">70</base>
+			<base stat="def">35</base>
+			<base stat="spd">60</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">35</base>
+			<mass>130.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Water Veil</ability>
+		</abilities>
+	</species>
+	<species id="320" name="Wailord">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">170</base>
+			<base stat="atk">90</base>
+			<base stat="def">45</base>
+			<base stat="spd">60</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">45</base>
+			<mass>398.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Water Veil</ability>
+		</abilities>
+	</species>
+	<species id="321" name="Numel">
+		<type>Fire</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">60</base>
+			<base stat="def">40</base>
+			<base stat="spd">35</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">45</base>
+			<mass>24.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Simple</ability>
+		</abilities>
+	</species>
+	<species id="322" name="Camerupt">
+		<type>Fire</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">100</base>
+			<base stat="def">70</base>
+			<base stat="spd">40</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">75</base>
+			<mass>220.0</mass>
+		</stats>
+		<abilities>
+			<ability>Magma Armor</ability>
+			<ability>Solid Rock</ability>
+		</abilities>
+	</species>
+	<species id="323" name="Torkoal">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">85</base>
+			<base stat="def">140</base>
+			<base stat="spd">20</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">70</base>
+			<mass>80.4</mass>
+		</stats>
+		<abilities>
+			<ability>White Smoke</ability>
+		</abilities>
+	</species>
+	<species id="324" name="Spoink">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">25</base>
+			<base stat="def">35</base>
+			<base stat="spd">60</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">80</base>
+			<mass>30.6</mass>
+		</stats>
+		<abilities>
+			<ability>Own Tempo</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="325" name="Grumpig">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">45</base>
+			<base stat="def">65</base>
+			<base stat="spd">80</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">110</base>
+			<mass>71.5</mass>
+		</stats>
+		<abilities>
+			<ability>Own Tempo</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="326" name="Spinda">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">60</base>
+			<base stat="def">60</base>
+			<base stat="spd">60</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>5.0</mass>
+		</stats>
+		<abilities>
+			<ability>Own Tempo</ability>
+			<ability>Tangled Feet</ability>
+		</abilities>
+	</species>
+	<species id="327" name="Trapinch">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">100</base>
+			<base stat="def">45</base>
+			<base stat="spd">10</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">45</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Hyper Cutter</ability>
+			<ability>Arena Trap</ability>
+		</abilities>
+	</species>
+	<species id="328" name="Vibrava">
+		<type>Ground</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">70</base>
+			<base stat="def">50</base>
+			<base stat="spd">70</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>15.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="329" name="Flygon">
+		<type>Ground</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">100</base>
+			<base stat="def">80</base>
+			<base stat="spd">100</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>82.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="330" name="Cacnea">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">85</base>
+			<base stat="def">40</base>
+			<base stat="spd">35</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">40</base>
+			<mass>51.3</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="331" name="Cacturne">
+		<type>Grass</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">115</base>
+			<base stat="def">60</base>
+			<base stat="spd">55</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">60</base>
+			<mass>77.4</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="332" name="Swablu">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">40</base>
+			<base stat="def">60</base>
+			<base stat="spd">50</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">75</base>
+			<mass>1.2</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+		</abilities>
+	</species>
+	<species id="333" name="Altaria">
+		<type>Dragon</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">70</base>
+			<base stat="def">90</base>
+			<base stat="spd">80</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">105</base>
+			<mass>20.6</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+		</abilities>
+	</species>
+	<species id="334" name="Zangoose">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">73</base>
+			<base stat="atk">115</base>
+			<base stat="def">60</base>
+			<base stat="spd">90</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">60</base>
+			<mass>40.3</mass>
+		</stats>
+		<abilities>
+			<ability>Immunity</ability>
+		</abilities>
+	</species>
+	<species id="335" name="Seviper">
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">73</base>
+			<base stat="atk">100</base>
+			<base stat="def">60</base>
+			<base stat="spd">65</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">60</base>
+			<mass>52.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="336" name="Lunatone">
+		<type>Rock</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">55</base>
+			<base stat="def">65</base>
+			<base stat="spd">70</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">85</base>
+			<mass>168.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="337" name="Solrock">
+		<type>Rock</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">95</base>
+			<base stat="def">85</base>
+			<base stat="spd">70</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">65</base>
+			<mass>154.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="338" name="Barboach">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">48</base>
+			<base stat="def">43</base>
+			<base stat="spd">60</base>
+			<base stat="satk">46</base>
+			<base stat="sdef">41</base>
+			<mass>1.9</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="339" name="Whiscash">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">110</base>
+			<base stat="atk">78</base>
+			<base stat="def">73</base>
+			<base stat="spd">60</base>
+			<base stat="satk">76</base>
+			<base stat="sdef">71</base>
+			<mass>23.6</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="340" name="Corphish">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">43</base>
+			<base stat="atk">80</base>
+			<base stat="def">65</base>
+			<base stat="spd">35</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">35</base>
+			<mass>11.5</mass>
+		</stats>
+		<abilities>
+			<ability>Hyper Cutter</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="341" name="Crawdaunt">
+		<type>Water</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">63</base>
+			<base stat="atk">120</base>
+			<base stat="def">85</base>
+			<base stat="spd">55</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">55</base>
+			<mass>32.8</mass>
+		</stats>
+		<abilities>
+			<ability>Hyper Cutter</ability>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="342" name="Baltoy">
+		<type>Ground</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">40</base>
+			<base stat="def">55</base>
+			<base stat="spd">55</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">70</base>
+			<mass>21.5</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="343" name="Claydol">
+		<type>Ground</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">70</base>
+			<base stat="def">105</base>
+			<base stat="spd">75</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">120</base>
+			<mass>108.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="344" name="Lileep">
+		<type>Rock</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">66</base>
+			<base stat="atk">41</base>
+			<base stat="def">77</base>
+			<base stat="spd">23</base>
+			<base stat="satk">61</base>
+			<base stat="sdef">87</base>
+			<mass>23.8</mass>
+		</stats>
+		<abilities>
+			<ability>Suction Cups</ability>
+		</abilities>
+	</species>
+	<species id="345" name="Cradily">
+		<type>Rock</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">86</base>
+			<base stat="atk">81</base>
+			<base stat="def">97</base>
+			<base stat="spd">43</base>
+			<base stat="satk">81</base>
+			<base stat="sdef">107</base>
+			<mass>60.4</mass>
+		</stats>
+		<abilities>
+			<ability>Suction Cups</ability>
+		</abilities>
+	</species>
+	<species id="346" name="Anorith">
+		<type>Rock</type>
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">95</base>
+			<base stat="def">50</base>
+			<base stat="spd">75</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">50</base>
+			<mass>12.5</mass>
+		</stats>
+		<abilities>
+			<ability>Battle Armor</ability>
+		</abilities>
+	</species>
+	<species id="347" name="Armaldo">
+		<type>Rock</type>
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">125</base>
+			<base stat="def">100</base>
+			<base stat="spd">45</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">80</base>
+			<mass>68.2</mass>
+		</stats>
+		<abilities>
+			<ability>Battle Armor</ability>
+		</abilities>
+	</species>
+	<species id="348" name="Feebas">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">20</base>
+			<base stat="atk">15</base>
+			<base stat="def">20</base>
+			<base stat="spd">80</base>
+			<base stat="satk">10</base>
+			<base stat="sdef">55</base>
+			<mass>7.4</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="349" name="Milotic">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">60</base>
+			<base stat="def">79</base>
+			<base stat="spd">81</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">125</base>
+			<mass>162.0</mass>
+		</stats>
+		<abilities>
+			<ability>Marvel Scale</ability>
+		</abilities>
+	</species>
+	<species id="350" name="Castform">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">70</base>
+			<base stat="def">70</base>
+			<base stat="spd">70</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">70</base>
+			<mass>0.8</mass>
+		</stats>
+		<abilities>
+			<ability>Forecast</ability>
+		</abilities>
+	</species>
+	<species id="351" name="Kecleon">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">90</base>
+			<base stat="def">70</base>
+			<base stat="spd">40</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">120</base>
+			<mass>22.0</mass>
+		</stats>
+		<abilities>
+			<ability>Color Change</ability>
+		</abilities>
+	</species>
+	<species id="352" name="Shuppet">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">44</base>
+			<base stat="atk">75</base>
+			<base stat="def">35</base>
+			<base stat="spd">45</base>
+			<base stat="satk">63</base>
+			<base stat="sdef">33</base>
+			<mass>2.3</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Frisk</ability>
+		</abilities>
+	</species>
+	<species id="353" name="Banette">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">64</base>
+			<base stat="atk">115</base>
+			<base stat="def">65</base>
+			<base stat="spd">65</base>
+			<base stat="satk">83</base>
+			<base stat="sdef">63</base>
+			<mass>12.5</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Frisk</ability>
+		</abilities>
+	</species>
+	<species id="354" name="Duskull">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">20</base>
+			<base stat="atk">40</base>
+			<base stat="def">90</base>
+			<base stat="spd">25</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">90</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="355" name="Dusclops">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">70</base>
+			<base stat="def">130</base>
+			<base stat="spd">25</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">130</base>
+			<mass>30.6</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="356" name="Tropius">
+		<type>Grass</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">99</base>
+			<base stat="atk">68</base>
+			<base stat="def">83</base>
+			<base stat="spd">51</base>
+			<base stat="satk">72</base>
+			<base stat="sdef">87</base>
+			<mass>100.0</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Solar Power</ability>
+		</abilities>
+	</species>
+	<species id="357" name="Chimecho">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">50</base>
+			<base stat="def">70</base>
+			<base stat="spd">65</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">80</base>
+			<mass>1.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="358" name="Absol">
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">130</base>
+			<base stat="def">60</base>
+			<base stat="spd">75</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">60</base>
+			<mass>47.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+			<ability>Super Luck</ability>
+		</abilities>
+	</species>
+	<species id="359" name="Wynaut">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">23</base>
+			<base stat="def">48</base>
+			<base stat="spd">23</base>
+			<base stat="satk">23</base>
+			<base stat="sdef">48</base>
+			<mass>14.0</mass>
+		</stats>
+		<abilities>
+			<ability>Shadow Tag</ability>
+		</abilities>
+	</species>
+	<species id="360" name="Snorunt">
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">50</base>
+			<base stat="def">50</base>
+			<base stat="spd">50</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>16.8</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Ice Body</ability>
+		</abilities>
+	</species>
+	<species id="361" name="Glalie">
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">80</base>
+			<base stat="def">80</base>
+			<base stat="spd">80</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>256.5</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Ice Body</ability>
+		</abilities>
+	</species>
+	<species id="362" name="Spheal">
+		<type>Ice</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">40</base>
+			<base stat="def">50</base>
+			<base stat="spd">25</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">50</base>
+			<mass>39.5</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Ice Body</ability>
+		</abilities>
+	</species>
+	<species id="363" name="Sealeo">
+		<type>Ice</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">60</base>
+			<base stat="def">70</base>
+			<base stat="spd">45</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">70</base>
+			<mass>87.6</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Ice Body</ability>
+		</abilities>
+	</species>
+	<species id="364" name="Walrein">
+		<type>Ice</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">110</base>
+			<base stat="atk">80</base>
+			<base stat="def">90</base>
+			<base stat="spd">65</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">90</base>
+			<mass>150.6</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Ice Body</ability>
+		</abilities>
+	</species>
+	<species id="365" name="Clamperl">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">35</base>
+			<base stat="atk">64</base>
+			<base stat="def">85</base>
+			<base stat="spd">32</base>
+			<base stat="satk">74</base>
+			<base stat="sdef">55</base>
+			<mass>52.5</mass>
+		</stats>
+		<abilities>
+			<ability>Shell Armor</ability>
+		</abilities>
+	</species>
+	<species id="366" name="Huntail">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">104</base>
+			<base stat="def">105</base>
+			<base stat="spd">52</base>
+			<base stat="satk">94</base>
+			<base stat="sdef">75</base>
+			<mass>27.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="367" name="Gorebyss">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">84</base>
+			<base stat="def">105</base>
+			<base stat="spd">52</base>
+			<base stat="satk">114</base>
+			<base stat="sdef">75</base>
+			<mass>22.6</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="368" name="Relicanth">
+		<type>Water</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">90</base>
+			<base stat="def">130</base>
+			<base stat="spd">55</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">65</base>
+			<mass>23.4</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="369" name="Luvdisc">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">43</base>
+			<base stat="atk">30</base>
+			<base stat="def">55</base>
+			<base stat="spd">97</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">65</base>
+			<mass>8.7</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="370" name="Bagon">
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">75</base>
+			<base stat="def">60</base>
+			<base stat="spd">50</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">30</base>
+			<mass>42.1</mass>
+		</stats>
+		<abilities>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="371" name="Shelgon">
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">95</base>
+			<base stat="def">100</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">50</base>
+			<mass>110.5</mass>
+		</stats>
+		<abilities>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="372" name="Salamence">
+		<type>Dragon</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">135</base>
+			<base stat="def">80</base>
+			<base stat="spd">100</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">80</base>
+			<mass>102.6</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="373" name="Beldum">
+		<type>Steel</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">55</base>
+			<base stat="def">80</base>
+			<base stat="spd">30</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">60</base>
+			<mass>95.2</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+		</abilities>
+	</species>
+	<species id="374" name="Metang">
+		<type>Steel</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">75</base>
+			<base stat="def">100</base>
+			<base stat="spd">50</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">80</base>
+			<mass>202.5</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+		</abilities>
+	</species>
+	<species id="375" name="Metagross">
+		<type>Steel</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">135</base>
+			<base stat="def">130</base>
+			<base stat="spd">70</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">90</base>
+			<mass>550.0</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+		</abilities>
+	</species>
+	<species id="376" name="Regirock">
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">100</base>
+			<base stat="def">200</base>
+			<base stat="spd">50</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">100</base>
+			<mass>230.0</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+		</abilities>
+	</species>
+	<species id="377" name="Regice">
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">50</base>
+			<base stat="def">100</base>
+			<base stat="spd">50</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">200</base>
+			<mass>175.0</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+		</abilities>
+	</species>
+	<species id="378" name="Registeel">
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">75</base>
+			<base stat="def">150</base>
+			<base stat="spd">50</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">150</base>
+			<mass>205.0</mass>
+		</stats>
+		<abilities>
+			<ability>Clear Body</ability>
+		</abilities>
+	</species>
+	<species id="379" name="Latias">
+		<type>Dragon</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">80</base>
+			<base stat="def">90</base>
+			<base stat="spd">110</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">130</base>
+			<mass>40.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="380" name="Latios">
+		<type>Dragon</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">90</base>
+			<base stat="def">80</base>
+			<base stat="spd">110</base>
+			<base stat="satk">130</base>
+			<base stat="sdef">110</base>
+			<mass>60.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="381" name="Kyogre">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">90</base>
+			<base stat="spd">90</base>
+			<base stat="satk">150</base>
+			<base stat="sdef">140</base>
+			<mass>352.0</mass>
+		</stats>
+		<abilities>
+			<ability>Drizzle</ability>
+		</abilities>
+	</species>
+	<species id="382" name="Groudon">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">150</base>
+			<base stat="def">140</base>
+			<base stat="spd">90</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">90</base>
+			<mass>950.0</mass>
+		</stats>
+		<abilities>
+			<ability>Drought</ability>
+		</abilities>
+	</species>
+	<species id="383" name="Rayquaza">
+		<type>Dragon</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">105</base>
+			<base stat="atk">150</base>
+			<base stat="def">90</base>
+			<base stat="spd">95</base>
+			<base stat="satk">150</base>
+			<base stat="sdef">90</base>
+			<mass>206.5</mass>
+		</stats>
+		<abilities>
+			<ability>Air Lock</ability>
+		</abilities>
+	</species>
+	<species id="384" name="Jirachi">
+		<type>Steel</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>1.1</mass>
+		</stats>
+		<abilities>
+			<ability>Serene Grace</ability>
+		</abilities>
+	</species>
+	<species id="385" name="Deoxys">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">150</base>
+			<base stat="def">50</base>
+			<base stat="spd">150</base>
+			<base stat="satk">150</base>
+			<base stat="sdef">50</base>
+			<mass>60.8</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="386" name="Deoxys-f">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">180</base>
+			<base stat="def">20</base>
+			<base stat="spd">150</base>
+			<base stat="satk">180</base>
+			<base stat="sdef">20</base>
+			<mass>60.8</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="387" name="Deoxys-l">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">70</base>
+			<base stat="def">160</base>
+			<base stat="spd">90</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">160</base>
+			<mass>60.8</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="388" name="Deoxys-e">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">95</base>
+			<base stat="def">90</base>
+			<base stat="spd">180</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">90</base>
+			<mass>60.8</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="389" name="Turtwig">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">68</base>
+			<base stat="def">64</base>
+			<base stat="spd">31</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">55</base>
+			<mass>10.2</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="390" name="Grotle">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">89</base>
+			<base stat="def">85</base>
+			<base stat="spd">36</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">65</base>
+			<mass>97.0</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="391" name="Torterra">
+		<type>Grass</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">95</base>
+			<base stat="atk">109</base>
+			<base stat="def">105</base>
+			<base stat="spd">56</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">85</base>
+			<mass>310.0</mass>
+		</stats>
+		<abilities>
+			<ability>Overgrow</ability>
+		</abilities>
+	</species>
+	<species id="392" name="Chimchar">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">44</base>
+			<base stat="atk">58</base>
+			<base stat="def">44</base>
+			<base stat="spd">61</base>
+			<base stat="satk">58</base>
+			<base stat="sdef">44</base>
+			<mass>6.2</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="393" name="Monferno">
+		<type>Fire</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">64</base>
+			<base stat="atk">78</base>
+			<base stat="def">52</base>
+			<base stat="spd">81</base>
+			<base stat="satk">78</base>
+			<base stat="sdef">52</base>
+			<mass>22.0</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="394" name="Infernape">
+		<type>Fire</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">76</base>
+			<base stat="atk">104</base>
+			<base stat="def">71</base>
+			<base stat="spd">108</base>
+			<base stat="satk">104</base>
+			<base stat="sdef">71</base>
+			<mass>55.0</mass>
+		</stats>
+		<abilities>
+			<ability>Blaze</ability>
+		</abilities>
+	</species>
+	<species id="395" name="Piplup">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">53</base>
+			<base stat="atk">51</base>
+			<base stat="def">53</base>
+			<base stat="spd">40</base>
+			<base stat="satk">61</base>
+			<base stat="sdef">56</base>
+			<mass>5.2</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="396" name="Prinplup">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">64</base>
+			<base stat="atk">66</base>
+			<base stat="def">68</base>
+			<base stat="spd">50</base>
+			<base stat="satk">81</base>
+			<base stat="sdef">76</base>
+			<mass>23.0</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="397" name="Empoleon">
+		<type>Water</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">84</base>
+			<base stat="atk">86</base>
+			<base stat="def">88</base>
+			<base stat="spd">60</base>
+			<base stat="satk">111</base>
+			<base stat="sdef">101</base>
+			<mass>84.5</mass>
+		</stats>
+		<abilities>
+			<ability>Torrent</ability>
+		</abilities>
+	</species>
+	<species id="398" name="Starly">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">55</base>
+			<base stat="def">30</base>
+			<base stat="spd">60</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>2.0</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+		</abilities>
+	</species>
+	<species id="399" name="Staravia">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">75</base>
+			<base stat="def">50</base>
+			<base stat="spd">80</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">40</base>
+			<mass>15.5</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="400" name="Staraptor">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">120</base>
+			<base stat="def">70</base>
+			<base stat="spd">100</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">50</base>
+			<mass>24.9</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+		</abilities>
+	</species>
+	<species id="401" name="Bidoof">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">59</base>
+			<base stat="atk">45</base>
+			<base stat="def">40</base>
+			<base stat="spd">31</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">40</base>
+			<mass>20.0</mass>
+		</stats>
+		<abilities>
+			<ability>Simple</ability>
+			<ability>Unaware</ability>
+		</abilities>
+	</species>
+	<species id="402" name="Bibarel">
+		<type>Normal</type>
+		<type>Water</type>
+		<stats>
+			<base stat="hp">79</base>
+			<base stat="atk">85</base>
+			<base stat="def">60</base>
+			<base stat="spd">71</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">60</base>
+			<mass>31.5</mass>
+		</stats>
+		<abilities>
+			<ability>Simple</ability>
+			<ability>Unaware</ability>
+		</abilities>
+	</species>
+	<species id="403" name="Kricketot">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">37</base>
+			<base stat="atk">25</base>
+			<base stat="def">41</base>
+			<base stat="spd">25</base>
+			<base stat="satk">25</base>
+			<base stat="sdef">41</base>
+			<mass>2.2</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="404" name="Kricketune">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">77</base>
+			<base stat="atk">85</base>
+			<base stat="def">51</base>
+			<base stat="spd">65</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">51</base>
+			<mass>25.5</mass>
+		</stats>
+		<abilities>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="405" name="Shinx">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">65</base>
+			<base stat="def">34</base>
+			<base stat="spd">45</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">34</base>
+			<mass>9.5</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="406" name="Luxio">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">85</base>
+			<base stat="def">49</base>
+			<base stat="spd">60</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">49</base>
+			<mass>30.5</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="407" name="Luxray">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">120</base>
+			<base stat="def">79</base>
+			<base stat="spd">70</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">79</base>
+			<mass>42.0</mass>
+		</stats>
+		<abilities>
+			<ability>Intimidate</ability>
+			<ability>Rivalry</ability>
+		</abilities>
+	</species>
+	<species id="408" name="Budew">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">30</base>
+			<base stat="def">35</base>
+			<base stat="spd">55</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">70</base>
+			<mass>1.2</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Poison Point</ability>
+		</abilities>
+	</species>
+	<species id="409" name="Roserade">
+		<type>Grass</type>
+		<type>Poison</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">70</base>
+			<base stat="def">55</base>
+			<base stat="spd">90</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">105</base>
+			<mass>14.5</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Poison Point</ability>
+		</abilities>
+	</species>
+	<species id="410" name="Cranidos">
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">67</base>
+			<base stat="atk">125</base>
+			<base stat="def">40</base>
+			<base stat="spd">58</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">30</base>
+			<mass>31.5</mass>
+		</stats>
+		<abilities>
+			<ability>Mold Breaker</ability>
+		</abilities>
+	</species>
+	<species id="411" name="Rampardos">
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">97</base>
+			<base stat="atk">165</base>
+			<base stat="def">60</base>
+			<base stat="spd">58</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">50</base>
+			<mass>102.5</mass>
+		</stats>
+		<abilities>
+			<ability>Mold Breaker</ability>
+		</abilities>
+	</species>
+	<species id="412" name="Shieldon">
+		<type>Rock</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">42</base>
+			<base stat="def">118</base>
+			<base stat="spd">30</base>
+			<base stat="satk">42</base>
+			<base stat="sdef">88</base>
+			<mass>57.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+		</abilities>
+	</species>
+	<species id="413" name="Bastiodon">
+		<type>Rock</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">52</base>
+			<base stat="def">168</base>
+			<base stat="spd">30</base>
+			<base stat="satk">47</base>
+			<base stat="sdef">138</base>
+			<mass>149.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+		</abilities>
+	</species>
+	<species id="414" name="Burmy">
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">29</base>
+			<base stat="def">45</base>
+			<base stat="spd">36</base>
+			<base stat="satk">29</base>
+			<base stat="sdef">45</base>
+			<mass>3.4</mass>
+		</stats>
+		<abilities>
+			<ability>Shed Skin</ability>
+		</abilities>
+	</species>
+	<species id="415" name="Wormadam">
+		<type>Bug</type>
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">59</base>
+			<base stat="def">85</base>
+			<base stat="spd">36</base>
+			<base stat="satk">79</base>
+			<base stat="sdef">105</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="416" name="Wormadam-g">
+		<type>Bug</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">79</base>
+			<base stat="def">105</base>
+			<base stat="spd">36</base>
+			<base stat="satk">59</base>
+			<base stat="sdef">85</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="417" name="Wormadam-s">
+		<type>Bug</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">69</base>
+			<base stat="def">95</base>
+			<base stat="spd">36</base>
+			<base stat="satk">69</base>
+			<base stat="sdef">95</base>
+			<mass>6.5</mass>
+		</stats>
+		<abilities>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="418" name="Mothim">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">94</base>
+			<base stat="def">50</base>
+			<base stat="spd">66</base>
+			<base stat="satk">94</base>
+			<base stat="sdef">50</base>
+			<mass>23.3</mass>
+		</stats>
+		<abilities>
+			<ability>Swarm</ability>
+		</abilities>
+	</species>
+	<species id="419" name="Combee">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">30</base>
+			<base stat="atk">30</base>
+			<base stat="def">42</base>
+			<base stat="spd">70</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">42</base>
+			<mass>5.5</mass>
+		</stats>
+		<abilities>
+			<ability>Honey Gather</ability>
+		</abilities>
+	</species>
+	<species id="420" name="Vespiquen">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">80</base>
+			<base stat="def">102</base>
+			<base stat="spd">40</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">102</base>
+			<mass>38.5</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="421" name="Pachirisu">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">45</base>
+			<base stat="def">70</base>
+			<base stat="spd">95</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">90</base>
+			<mass>3.9</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Pickup</ability>
+		</abilities>
+	</species>
+	<species id="422" name="Buizel">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">65</base>
+			<base stat="def">35</base>
+			<base stat="spd">85</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">30</base>
+			<mass>29.5</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="423" name="Floatzel">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">105</base>
+			<base stat="def">55</base>
+			<base stat="spd">115</base>
+			<base stat="satk">85</base>
+			<base stat="sdef">50</base>
+			<mass>33.5</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="424" name="Cherubi">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">35</base>
+			<base stat="def">45</base>
+			<base stat="spd">35</base>
+			<base stat="satk">62</base>
+			<base stat="sdef">53</base>
+			<mass>3.3</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+		</abilities>
+	</species>
+	<species id="425" name="Cherrim">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">60</base>
+			<base stat="def">70</base>
+			<base stat="spd">85</base>
+			<base stat="satk">87</base>
+			<base stat="sdef">78</base>
+			<mass>9.3</mass>
+		</stats>
+		<abilities>
+			<ability>Flower Gift</ability>
+		</abilities>
+	</species>
+	<species id="426" name="Shellos">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">76</base>
+			<base stat="atk">48</base>
+			<base stat="def">48</base>
+			<base stat="spd">34</base>
+			<base stat="satk">57</base>
+			<base stat="sdef">62</base>
+			<mass>6.3</mass>
+		</stats>
+		<abilities>
+			<ability>Sticky Hold</ability>
+			<ability>Storm Drain</ability>
+		</abilities>
+	</species>
+	<species id="427" name="Gastrodon">
+		<type>Water</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">111</base>
+			<base stat="atk">83</base>
+			<base stat="def">68</base>
+			<base stat="spd">39</base>
+			<base stat="satk">92</base>
+			<base stat="sdef">82</base>
+			<mass>29.9</mass>
+		</stats>
+		<abilities>
+			<ability>Sticky Hold</ability>
+			<ability>Storm Drain</ability>
+		</abilities>
+	</species>
+	<species id="428" name="Ambipom">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">100</base>
+			<base stat="def">66</base>
+			<base stat="spd">115</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">66</base>
+			<mass>20.3</mass>
+		</stats>
+		<abilities>
+			<ability>Pickup</ability>
+			<ability>Technician</ability>
+		</abilities>
+	</species>
+	<species id="429" name="Drifloon">
+		<type>Ghost</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">50</base>
+			<base stat="def">34</base>
+			<base stat="spd">70</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">44</base>
+			<mass>1.2</mass>
+		</stats>
+		<abilities>
+			<ability>Unburden</ability>
+			<ability>Aftermath</ability>
+		</abilities>
+	</species>
+	<species id="430" name="Drifblim">
+		<type>Ghost</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">150</base>
+			<base stat="atk">80</base>
+			<base stat="def">44</base>
+			<base stat="spd">80</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">54</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Unburden</ability>
+			<ability>Aftermath</ability>
+		</abilities>
+	</species>
+	<species id="431" name="Buneary">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">55</base>
+			<base stat="atk">66</base>
+			<base stat="def">44</base>
+			<base stat="spd">85</base>
+			<base stat="satk">44</base>
+			<base stat="sdef">56</base>
+			<mass>5.5</mass>
+		</stats>
+		<abilities>
+			<ability>Run Away</ability>
+			<ability>Klutz</ability>
+		</abilities>
+	</species>
+	<species id="432" name="Lopunny">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">76</base>
+			<base stat="def">84</base>
+			<base stat="spd">105</base>
+			<base stat="satk">54</base>
+			<base stat="sdef">96</base>
+			<mass>33.3</mass>
+		</stats>
+		<abilities>
+			<ability>Cute Charm</ability>
+			<ability>Klutz</ability>
+		</abilities>
+	</species>
+	<species id="433" name="Mismagius">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">60</base>
+			<base stat="def">60</base>
+			<base stat="spd">105</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">105</base>
+			<mass>4.4</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="434" name="Honchkrow">
+		<type>Dark</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">125</base>
+			<base stat="def">52</base>
+			<base stat="spd">71</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">52</base>
+			<mass>27.3</mass>
+		</stats>
+		<abilities>
+			<ability>Insomnia</ability>
+			<ability>Super Luck</ability>
+		</abilities>
+	</species>
+	<species id="435" name="Glameow">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">49</base>
+			<base stat="atk">55</base>
+			<base stat="def">42</base>
+			<base stat="spd">85</base>
+			<base stat="satk">42</base>
+			<base stat="sdef">37</base>
+			<mass>3.9</mass>
+		</stats>
+		<abilities>
+			<ability>Limber</ability>
+			<ability>Own Tempo</ability>
+		</abilities>
+	</species>
+	<species id="436" name="Purugly">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">71</base>
+			<base stat="atk">82</base>
+			<base stat="def">64</base>
+			<base stat="spd">112</base>
+			<base stat="satk">64</base>
+			<base stat="sdef">59</base>
+			<mass>43.8</mass>
+		</stats>
+		<abilities>
+			<ability>Own Tempo</ability>
+			<ability>Thick Fat</ability>
+		</abilities>
+	</species>
+	<species id="437" name="Chingling">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">30</base>
+			<base stat="def">50</base>
+			<base stat="spd">45</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">50</base>
+			<mass>0.6</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="438" name="Stunky">
+		<type>Poison</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">63</base>
+			<base stat="atk">63</base>
+			<base stat="def">47</base>
+			<base stat="spd">74</base>
+			<base stat="satk">41</base>
+			<base stat="sdef">41</base>
+			<mass>19.2</mass>
+		</stats>
+		<abilities>
+			<ability>Stench</ability>
+			<ability>Aftermath</ability>
+		</abilities>
+	</species>
+	<species id="439" name="Skuntank">
+		<type>Poison</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">103</base>
+			<base stat="atk">93</base>
+			<base stat="def">67</base>
+			<base stat="spd">84</base>
+			<base stat="satk">71</base>
+			<base stat="sdef">61</base>
+			<mass>38.0</mass>
+		</stats>
+		<abilities>
+			<ability>Stench</ability>
+			<ability>Aftermath</ability>
+		</abilities>
+	</species>
+	<species id="440" name="Bronzor">
+		<type>Steel</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">57</base>
+			<base stat="atk">24</base>
+			<base stat="def">86</base>
+			<base stat="spd">23</base>
+			<base stat="satk">24</base>
+			<base stat="sdef">86</base>
+			<mass>60.5</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+			<ability>Heatproof</ability>
+		</abilities>
+	</species>
+	<species id="441" name="Bronzong">
+		<type>Steel</type>
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">67</base>
+			<base stat="atk">89</base>
+			<base stat="def">116</base>
+			<base stat="spd">33</base>
+			<base stat="satk">79</base>
+			<base stat="sdef">116</base>
+			<mass>187.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+			<ability>Heatproof</ability>
+		</abilities>
+	</species>
+	<species id="442" name="Bonsly">
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">80</base>
+			<base stat="def">95</base>
+			<base stat="spd">10</base>
+			<base stat="satk">10</base>
+			<base stat="sdef">45</base>
+			<mass>15.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Rock Head</ability>
+		</abilities>
+	</species>
+	<species id="443" name="Mime Jr.">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">20</base>
+			<base stat="atk">25</base>
+			<base stat="def">45</base>
+			<base stat="spd">60</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">90</base>
+			<mass>13.0</mass>
+		</stats>
+		<abilities>
+			<ability>Soundproof</ability>
+			<ability>Filter</ability>
+		</abilities>
+	</species>
+	<species id="444" name="Happiny">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">5</base>
+			<base stat="def">5</base>
+			<base stat="spd">30</base>
+			<base stat="satk">15</base>
+			<base stat="sdef">65</base>
+			<mass>24.4</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+			<ability>Serene Grace</ability>
+		</abilities>
+	</species>
+	<species id="445" name="Chatot">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">76</base>
+			<base stat="atk">65</base>
+			<base stat="def">45</base>
+			<base stat="spd">91</base>
+			<base stat="satk">92</base>
+			<base stat="sdef">42</base>
+			<mass>1.9</mass>
+		</stats>
+		<abilities>
+			<ability>Keen Eye</ability>
+			<ability>Tangled Feet</ability>
+		</abilities>
+	</species>
+	<species id="446" name="Spiritomb">
+		<type>Ghost</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">92</base>
+			<base stat="def">108</base>
+			<base stat="spd">35</base>
+			<base stat="satk">92</base>
+			<base stat="sdef">108</base>
+			<mass>108.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="447" name="Gible">
+		<type>Dragon</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">58</base>
+			<base stat="atk">70</base>
+			<base stat="def">45</base>
+			<base stat="spd">42</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">45</base>
+			<mass>20.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="448" name="Gabite">
+		<type>Dragon</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">68</base>
+			<base stat="atk">90</base>
+			<base stat="def">65</base>
+			<base stat="spd">82</base>
+			<base stat="satk">50</base>
+			<base stat="sdef">55</base>
+			<mass>56.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="449" name="Garchomp">
+		<type>Dragon</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">108</base>
+			<base stat="atk">130</base>
+			<base stat="def">95</base>
+			<base stat="spd">102</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">85</base>
+			<mass>95.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+		</abilities>
+	</species>
+	<species id="450" name="Munchlax">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">135</base>
+			<base stat="atk">85</base>
+			<base stat="def">40</base>
+			<base stat="spd">5</base>
+			<base stat="satk">40</base>
+			<base stat="sdef">85</base>
+			<mass>105.0</mass>
+		</stats>
+		<abilities>
+			<ability>Thick Fat</ability>
+			<ability>Pickup</ability>
+		</abilities>
+	</species>
+	<species id="451" name="Riolu">
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">70</base>
+			<base stat="def">40</base>
+			<base stat="spd">60</base>
+			<base stat="satk">35</base>
+			<base stat="sdef">40</base>
+			<mass>20.2</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Steadfast</ability>
+		</abilities>
+	</species>
+	<species id="452" name="Lucario">
+		<type>Fighting</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">110</base>
+			<base stat="def">70</base>
+			<base stat="spd">90</base>
+			<base stat="satk">115</base>
+			<base stat="sdef">70</base>
+			<mass>54.0</mass>
+		</stats>
+		<abilities>
+			<ability>Inner Focus</ability>
+			<ability>Steadfast</ability>
+		</abilities>
+	</species>
+	<species id="453" name="Hippopotas">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">68</base>
+			<base stat="atk">72</base>
+			<base stat="def">78</base>
+			<base stat="spd">32</base>
+			<base stat="satk">38</base>
+			<base stat="sdef">42</base>
+			<mass>49.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Stream</ability>
+		</abilities>
+	</species>
+	<species id="454" name="Hippowdon">
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">108</base>
+			<base stat="atk">112</base>
+			<base stat="def">118</base>
+			<base stat="spd">47</base>
+			<base stat="satk">68</base>
+			<base stat="sdef">72</base>
+			<mass>300.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Stream</ability>
+		</abilities>
+	</species>
+	<species id="455" name="Skorupi">
+		<type>Poison</type>
+		<type>Bug</type>
+		<stats>
+			<base stat="hp">40</base>
+			<base stat="atk">50</base>
+			<base stat="def">90</base>
+			<base stat="spd">65</base>
+			<base stat="satk">30</base>
+			<base stat="sdef">55</base>
+			<mass>12.0</mass>
+		</stats>
+		<abilities>
+			<ability>Battle Armor</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="456" name="Drapion">
+		<type>Poison</type>
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">90</base>
+			<base stat="def">110</base>
+			<base stat="spd">95</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">75</base>
+			<mass>61.5</mass>
+		</stats>
+		<abilities>
+			<ability>Battle Armor</ability>
+			<ability>Sniper</ability>
+		</abilities>
+	</species>
+	<species id="457" name="Croagunk">
+		<type>Poison</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">48</base>
+			<base stat="atk">61</base>
+			<base stat="def">40</base>
+			<base stat="spd">50</base>
+			<base stat="satk">61</base>
+			<base stat="sdef">40</base>
+			<mass>23.0</mass>
+		</stats>
+		<abilities>
+			<ability>Dry Skin</ability>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="458" name="Toxicroak">
+		<type>Poison</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">83</base>
+			<base stat="atk">106</base>
+			<base stat="def">65</base>
+			<base stat="spd">85</base>
+			<base stat="satk">86</base>
+			<base stat="sdef">65</base>
+			<mass>44.4</mass>
+		</stats>
+		<abilities>
+			<ability>Dry Skin</ability>
+			<ability>Anticipation</ability>
+		</abilities>
+	</species>
+	<species id="459" name="Carnivine">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">74</base>
+			<base stat="atk">100</base>
+			<base stat="def">72</base>
+			<base stat="spd">46</base>
+			<base stat="satk">90</base>
+			<base stat="sdef">72</base>
+			<mass>27.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="460" name="Finneon">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">49</base>
+			<base stat="atk">49</base>
+			<base stat="def">56</base>
+			<base stat="spd">66</base>
+			<base stat="satk">49</base>
+			<base stat="sdef">61</base>
+			<mass>7.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Storm Drain</ability>
+		</abilities>
+	</species>
+	<species id="461" name="Lumineon">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">69</base>
+			<base stat="atk">69</base>
+			<base stat="def">76</base>
+			<base stat="spd">91</base>
+			<base stat="satk">69</base>
+			<base stat="sdef">86</base>
+			<mass>24.0</mass>
+		</stats>
+		<abilities>
+			<ability>Swift Swim</ability>
+			<ability>Storm Drain</ability>
+		</abilities>
+	</species>
+	<species id="462" name="Mantyke">
+		<type>Water</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">20</base>
+			<base stat="def">50</base>
+			<base stat="spd">50</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">120</base>
+			<mass>65.0</mass>
+		</stats>
+		<abilities>
+			<ability>Water Absorb</ability>
+			<ability>Swift Swim</ability>
+		</abilities>
+	</species>
+	<species id="463" name="Snover">
+		<type>Grass</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">62</base>
+			<base stat="def">50</base>
+			<base stat="spd">40</base>
+			<base stat="satk">62</base>
+			<base stat="sdef">60</base>
+			<mass>50.5</mass>
+		</stats>
+		<abilities>
+			<ability>Snow Warning</ability>
+		</abilities>
+	</species>
+	<species id="464" name="Abomasnow">
+		<type>Grass</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">92</base>
+			<base stat="def">75</base>
+			<base stat="spd">60</base>
+			<base stat="satk">92</base>
+			<base stat="sdef">85</base>
+			<mass>135.5</mass>
+		</stats>
+		<abilities>
+			<ability>Snow Warning</ability>
+		</abilities>
+	</species>
+	<species id="465" name="Weavile">
+		<type>Dark</type>
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">120</base>
+			<base stat="def">65</base>
+			<base stat="spd">125</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">85</base>
+			<mass>34.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="466" name="Magnezone">
+		<type>Electric</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">70</base>
+			<base stat="def">115</base>
+			<base stat="spd">60</base>
+			<base stat="satk">130</base>
+			<base stat="sdef">90</base>
+			<mass>180.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Magnet Pull</ability>
+		</abilities>
+	</species>
+	<species id="467" name="Lickilicky">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">110</base>
+			<base stat="atk">85</base>
+			<base stat="def">95</base>
+			<base stat="spd">50</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">95</base>
+			<mass>140.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Own Tempo</ability>
+		</abilities>
+	</species>
+	<species id="468" name="Rhyperior">
+		<type>Ground</type>
+		<type>Rock</type>
+		<stats>
+			<base stat="hp">115</base>
+			<base stat="atk">140</base>
+			<base stat="def">130</base>
+			<base stat="spd">40</base>
+			<base stat="satk">55</base>
+			<base stat="sdef">55</base>
+			<mass>282.8</mass>
+		</stats>
+		<abilities>
+			<ability>Lightningrod</ability>
+			<ability>Solid Rock</ability>
+		</abilities>
+	</species>
+	<species id="469" name="Tangrowth">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">125</base>
+			<base stat="spd">50</base>
+			<base stat="satk">110</base>
+			<base stat="sdef">50</base>
+			<mass>128.6</mass>
+		</stats>
+		<abilities>
+			<ability>Chlorophyll</ability>
+			<ability>Leaf Guard</ability>
+		</abilities>
+	</species>
+	<species id="470" name="Electivire">
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">123</base>
+			<base stat="def">67</base>
+			<base stat="spd">95</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">85</base>
+			<mass>138.6</mass>
+		</stats>
+		<abilities>
+			<ability>Motor Drive</ability>
+		</abilities>
+	</species>
+	<species id="471" name="Magmortar">
+		<type>Fire</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">95</base>
+			<base stat="def">67</base>
+			<base stat="spd">83</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">95</base>
+			<mass>68.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flame Body</ability>
+		</abilities>
+	</species>
+	<species id="472" name="Togekiss">
+		<type>Normal</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">50</base>
+			<base stat="def">95</base>
+			<base stat="spd">80</base>
+			<base stat="satk">120</base>
+			<base stat="sdef">115</base>
+			<mass>38.0</mass>
+		</stats>
+		<abilities>
+			<ability>Serene Grace</ability>
+			<ability>Hustle</ability>
+		</abilities>
+	</species>
+	<species id="473" name="Yanmega">
+		<type>Bug</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">86</base>
+			<base stat="atk">76</base>
+			<base stat="def">86</base>
+			<base stat="spd">95</base>
+			<base stat="satk">116</base>
+			<base stat="sdef">56</base>
+			<mass>51.5</mass>
+		</stats>
+		<abilities>
+			<ability>Speed Boost</ability>
+			<ability>Tinted Lens</ability>
+		</abilities>
+	</species>
+	<species id="474" name="Leafeon">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">110</base>
+			<base stat="def">130</base>
+			<base stat="spd">95</base>
+			<base stat="satk">60</base>
+			<base stat="sdef">65</base>
+			<mass>25.5</mass>
+		</stats>
+		<abilities>
+			<ability>Leaf Guard</ability>
+		</abilities>
+	</species>
+	<species id="475" name="Glaceon">
+		<type>Ice</type>
+		<stats>
+			<base stat="hp">65</base>
+			<base stat="atk">60</base>
+			<base stat="def">110</base>
+			<base stat="spd">65</base>
+			<base stat="satk">130</base>
+			<base stat="sdef">95</base>
+			<mass>25.9</mass>
+		</stats>
+		<abilities>
+			<ability>Snow Cloak</ability>
+		</abilities>
+	</species>
+	<species id="476" name="Gliscor">
+		<type>Ground</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">95</base>
+			<base stat="def">125</base>
+			<base stat="spd">95</base>
+			<base stat="satk">45</base>
+			<base stat="sdef">75</base>
+			<mass>42.5</mass>
+		</stats>
+		<abilities>
+			<ability>Sand Veil</ability>
+			<ability>Hyper Cutter</ability>
+		</abilities>
+	</species>
+	<species id="477" name="Mamoswine">
+		<type>Ice</type>
+		<type>Ground</type>
+		<stats>
+			<base stat="hp">110</base>
+			<base stat="atk">130</base>
+			<base stat="def">80</base>
+			<base stat="spd">80</base>
+			<base stat="satk">70</base>
+			<base stat="sdef">60</base>
+			<mass>291.0</mass>
+		</stats>
+		<abilities>
+			<ability>Oblivious</ability>
+			<ability>Snow Cloak</ability>
+		</abilities>
+	</species>
+	<species id="478" name="Porygonz">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">85</base>
+			<base stat="atk">80</base>
+			<base stat="def">70</base>
+			<base stat="spd">90</base>
+			<base stat="satk">135</base>
+			<base stat="sdef">75</base>
+			<mass>34.0</mass>
+		</stats>
+		<abilities>
+			<ability>Download</ability>
+			<ability>Adaptability</ability>
+		</abilities>
+	</species>
+	<species id="479" name="Gallade">
+		<type>Psychic</type>
+		<type>Fighting</type>
+		<stats>
+			<base stat="hp">68</base>
+			<base stat="atk">125</base>
+			<base stat="def">65</base>
+			<base stat="spd">80</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">115</base>
+			<mass>52.0</mass>
+		</stats>
+		<abilities>
+			<ability>Steadfast</ability>
+		</abilities>
+	</species>
+	<species id="480" name="Probopass">
+		<type>Rock</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">60</base>
+			<base stat="atk">55</base>
+			<base stat="def">145</base>
+			<base stat="spd">40</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">150</base>
+			<mass>340.0</mass>
+		</stats>
+		<abilities>
+			<ability>Sturdy</ability>
+			<ability>Magnet Pull</ability>
+		</abilities>
+	</species>
+	<species id="481" name="Dusknoir">
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">45</base>
+			<base stat="atk">100</base>
+			<base stat="def">135</base>
+			<base stat="spd">45</base>
+			<base stat="satk">65</base>
+			<base stat="sdef">135</base>
+			<mass>106.6</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="482" name="Froslass">
+		<type>Ice</type>
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">80</base>
+			<base stat="def">70</base>
+			<base stat="spd">110</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">70</base>
+			<mass>26.6</mass>
+		</stats>
+		<abilities>
+			<ability>Snow Cloak</ability>
+		</abilities>
+	</species>
+	<species id="483" name="Rotom">
+		<type>Electric</type>
+		<type>Ghost</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">50</base>
+			<base stat="def">77</base>
+			<base stat="spd">91</base>
+			<base stat="satk">95</base>
+			<base stat="sdef">77</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="484" name="Uxie">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">75</base>
+			<base stat="def">130</base>
+			<base stat="spd">95</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">130</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="485" name="Mesprit">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">105</base>
+			<base stat="def">105</base>
+			<base stat="spd">80</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">105</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="486" name="Azelf">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">75</base>
+			<base stat="atk">125</base>
+			<base stat="def">70</base>
+			<base stat="spd">115</base>
+			<base stat="satk">125</base>
+			<base stat="sdef">70</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="487" name="Dialga">
+		<type>Steel</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">120</base>
+			<base stat="def">120</base>
+			<base stat="spd">90</base>
+			<base stat="satk">150</base>
+			<base stat="sdef">100</base>
+			<mass>683.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="488" name="Palkia">
+		<type>Water</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">90</base>
+			<base stat="atk">120</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">150</base>
+			<base stat="sdef">120</base>
+			<mass>336.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="489" name="Heatran">
+		<type>Fire</type>
+		<type>Steel</type>
+		<stats>
+			<base stat="hp">91</base>
+			<base stat="atk">90</base>
+			<base stat="def">106</base>
+			<base stat="spd">77</base>
+			<base stat="satk">130</base>
+			<base stat="sdef">106</base>
+			<mass>430.0</mass>
+		</stats>
+		<abilities>
+			<ability>Flash Fire</ability>
+		</abilities>
+	</species>
+	<species id="490" name="Regigigas">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">110</base>
+			<base stat="atk">160</base>
+			<base stat="def">110</base>
+			<base stat="spd">100</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">110</base>
+			<mass>420.0</mass>
+		</stats>
+		<abilities>
+			<ability>Slow Start</ability>
+		</abilities>
+	</species>
+	<species id="491" name="Giratina">
+		<type>Ghost</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">150</base>
+			<base stat="atk">100</base>
+			<base stat="def">120</base>
+			<base stat="spd">90</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">120</base>
+			<mass>750.0</mass>
+		</stats>
+		<abilities>
+			<ability>Pressure</ability>
+		</abilities>
+	</species>
+	<species id="492" name="Cresselia">
+		<type>Psychic</type>
+		<stats>
+			<base stat="hp">120</base>
+			<base stat="atk">70</base>
+			<base stat="def">120</base>
+			<base stat="spd">85</base>
+			<base stat="satk">75</base>
+			<base stat="sdef">130</base>
+			<mass>85.6</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="493" name="Phione">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">80</base>
+			<base stat="atk">80</base>
+			<base stat="def">80</base>
+			<base stat="spd">80</base>
+			<base stat="satk">80</base>
+			<base stat="sdef">80</base>
+			<mass>3.1</mass>
+		</stats>
+		<abilities>
+			<ability>Hydration</ability>
+		</abilities>
+	</species>
+	<species id="494" name="Manaphy">
+		<type>Water</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>1.4</mass>
+		</stats>
+		<abilities>
+			<ability>Hydration</ability>
+		</abilities>
+	</species>
+	<species id="495" name="Darkrai">
+		<type>Dark</type>
+		<stats>
+			<base stat="hp">70</base>
+			<base stat="atk">90</base>
+			<base stat="def">90</base>
+			<base stat="spd">125</base>
+			<base stat="satk">135</base>
+			<base stat="sdef">90</base>
+			<mass>50.5</mass>
+		</stats>
+		<abilities>
+			<ability>Bad Dreams</ability>
+		</abilities>
+	</species>
+	<species id="496" name="Shaymin">
+		<type>Grass</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">100</base>
+			<base stat="def">100</base>
+			<base stat="spd">100</base>
+			<base stat="satk">100</base>
+			<base stat="sdef">100</base>
+			<mass>2.1</mass>
+		</stats>
+		<abilities>
+			<ability>Natural Cure</ability>
+		</abilities>
+	</species>
+	<species id="497" name="Arceus">
+		<type>Normal</type>
+		<stats>
+			<base stat="hp">120</base>
+			<base stat="atk">120</base>
+			<base stat="def">120</base>
+			<base stat="spd">120</base>
+			<base stat="satk">120</base>
+			<base stat="sdef">120</base>
+			<mass>320.0</mass>
+		</stats>
+		<abilities>
+			<ability>Multitype</ability>
+		</abilities>
+	</species>
+	<species id="498" name="Rotom-f">
+		<type>Ghost</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">107</base>
+			<base stat="spd">86</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">107</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="499" name="Rotom-c">
+		<type>Ghost</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">107</base>
+			<base stat="spd">86</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">107</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="500" name="Rotom-h">
+		<type>Ghost</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">107</base>
+			<base stat="spd">86</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">107</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="501" name="Rotom-s">
+		<type>Ghost</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">107</base>
+			<base stat="spd">86</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">107</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="502" name="Rotom-w">
+		<type>Ghost</type>
+		<type>Electric</type>
+		<stats>
+			<base stat="hp">50</base>
+			<base stat="atk">65</base>
+			<base stat="def">107</base>
+			<base stat="spd">86</base>
+			<base stat="satk">105</base>
+			<base stat="sdef">107</base>
+			<mass>0.3</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="503" name="Giratina-o">
+		<type>Ghost</type>
+		<type>Dragon</type>
+		<stats>
+			<base stat="hp">150</base>
+			<base stat="atk">120</base>
+			<base stat="def">100</base>
+			<base stat="spd">90</base>
+			<base stat="satk">120</base>
+			<base stat="sdef">100</base>
+			<mass>750.0</mass>
+		</stats>
+		<abilities>
+			<ability>Levitate</ability>
+		</abilities>
+	</species>
+	<species id="504" name="Shaymin-s">
+		<type>Grass</type>
+		<type>Flying</type>
+		<stats>
+			<base stat="hp">100</base>
+			<base stat="atk">103</base>
+			<base stat="def">75</base>
+			<base stat="spd">127</base>
+			<base stat="satk">120</base>
+			<base stat="sdef">75</base>
+			<mass>2.1</mass>
+		</stats>
+		<abilities>
+			<ability>Serene Grace</ability>
+		</abilities>
+	</species>
+</shoddybattle>
