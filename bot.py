@@ -142,8 +142,8 @@ class BotClient:
     def recvfully(self, bytes):
         data = array('B')
         read = 0
-        while read < _bytes:
-            str = self.socket.recv(_bytes - read)
+        while read < bytes:
+            str = self.socket.recv(bytes - read)
             if str == "": raise IOError
             read += len(str)
             data.fromstring(str)
