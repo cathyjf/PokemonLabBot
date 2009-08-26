@@ -14,7 +14,7 @@ import parsers
 
 # A message received from the server.
 class InMessage:
-    # data - an array of _unsigned _bytes (i.e. array('B'))
+    # data - an array of unsigned bytes (i.e. array('B'))
     def __init__(self, data):
         self.buffer = data
 
@@ -65,7 +65,7 @@ class OutMessage:
         self.buffer.fromstring(str)
 
     def finalise(self):
-        # note: we reverse the _byte order when inserting the data _into the buffer
+        # note: we reverse the byte order when inserting the data into the buffer
         length = len(self.buffer) - 1
         insert = array('B', pack('<i', length)).tolist()
         for i in range(4):
@@ -137,9 +137,9 @@ class BotClient:
         msg.finalise()
         self.socket.sendall(msg.to_string())
 
-    # read exactly the specified number of _bytes from the server and return the
+    # read exactly the specified number of bytes from the server and return the
     # result in the form of an InMessage
-    def recvfully(self, _bytes):
+    def recvfully(self, bytes):
         data = array('B')
         read = 0
         while read < _bytes:
@@ -153,7 +153,7 @@ class BotClient:
     def run(self):
         while True:
             try:
-                # read in the five _byte header
+                # read in the five byte header
                 msg = self.recvfully(5)
                 # extract the message type and length components
                 code = msg.read_byte()
@@ -215,7 +215,7 @@ class BotClient:
             # int32 : number of channels
             # for each channel:
             #   string : name
-            #   _byte   : type
+            #   byte   : type
             #   string : topic
             #   int32 : population
             n = msg.read_int()
@@ -252,14 +252,14 @@ class BotClient:
             # byte   : whether this is a replacement
             # int32  : number of pokemon
             # for each pokemon
-            #     _byte: whether it is legal to switch to this pokemon
+            #     byte: whether it is legal to switch to this pokemon
             # if not replacement
-            #     _byte : whether switching is legal
-            #     _byte : whether there is a forced move
+            #     byte : whether switching is legal
+            #     byte : whether there is a forced move
             #     if not forced:
             #         int32 : total number of moves
             #         for each move:
-            #             _byte: whether the move is legal
+            #             byte: whether the move is legal
             fid, slot, pos, replace = msg.read_int(), msg.read_byte(), msg.read_byte(), msg.read_byte()
             num_pokes = msg.read_int()
             switches = [msg.read_byte() for i in range(num_pokes)]
@@ -281,8 +281,8 @@ class BotClient:
             #     for 0..n-1:
             #         int16 : species id
             #         if id != -1:
-            #             _byte: gender
-            #             _byte: shiny
+            #             byte: gender
+            #             byte: shiny
             
             # the bot probably doesn't need to care about this
             pass
@@ -377,7 +377,7 @@ class BotClient:
             # METAGAME_LIST
             # int16  : metagame count
             # for 0..metagame count - 1:
-            #    _byte   : index
+            #    byte   : index
             #    string : name
             #    string : id
             #    string : description
