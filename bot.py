@@ -349,7 +349,7 @@ class BotClient:
             # byte  : pp
             self.handler.handle_battle_set_pp(msg.read_int(), msg.read_byte(), msg.read_byte(), msg.read_byte())
         elif code == 22:
-            # BATTLE_FA_intED
+            # BATTLE_FAINTED
             # int32  : field id
             # byte   : party
             # byte   : slot
@@ -381,6 +381,8 @@ class BotClient:
             #    string : name
             #    string : id
             #    string : description
+            #    byte   : party size
+            #    byte   : max team length
             #    int16  : ban list count
             #    for 0..ban list count - 1:
             #        int16  : species id
@@ -391,9 +393,10 @@ class BotClient:
             metagames = []
             for i in xrange(0, mcount):
                 index, name, id, desc = msg.read_byte(), msg.read_string(), msg.read_string(), msg.read_string()
+                party_size, max_team_length = msg.read_byte(), msg.read_byte()
                 bans = [msg.read_short() for i in xrange(0, msg.read_short())]
                 clauses = [msg.read_string() for i in xrange(0, msg.read_short())]
-                metagames.append((index, name, id, desc, bans, clauses))
+                metagames.append((index, name, id, desc, party_size, max_team_length, bans, clauses))
             self.handler.handle_metagame_list(metagames)
         else:
             print "Unknown code: ", code
@@ -650,11 +653,14 @@ class MessageHandler:
         pass
     
     # A list of metagames sent from the server 
-    # metagames: tuples of the form (index, name, id, description, ban list, clauses)
+    # metagames: tuples of the form (index, name, id, description, party size, 
+    #                                       max team length, ban list, clauses)
     # index: int - index of the metagame
     # name: string - formal name of the ladder
-    # id: string - _internal name of the ladder
+    # id: string - internal name of the ladder
     # description: string - a brief description of the ladder
+    # party size: int - the number of active pokemon on each team
+    # max team length: int - the maximum number of pokemon in a team
     # banlist: list of species ids for all banned pokemon
     # clauses: list of strings for the named clauses
     def handle_metagame_list(self, metagames):
