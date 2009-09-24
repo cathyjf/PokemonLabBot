@@ -466,6 +466,7 @@ class MessageHandler:
             msg.write_string(p.get_nickname())
             msg.write_byte(0)
             msg.write_byte(p.get_gender())
+            msg.write_byte(p.get_happiness())
             msg.write_int(p.get_level())
             msg.write_string(p.get_item())
             msg.write_string(p.get_ability())

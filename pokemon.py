@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 
 class Pokemon:
-    def __init__(self, species=-1, nickname="", level=100, gender="Male", 
+    def __init__(self, species=-1, nickname="", happiness=255, level=100, gender="Male", 
                         nature="", item="", ability="", moves=[], stats=[]):
         self.species = species
         self.nickname = nickname
+        self.happiness = happiness
         self.level = level
         self.gender = gender
         self.nature = nature
@@ -22,6 +23,9 @@ class Pokemon:
     
     def get_nickname(self):
         return self.nickname
+    
+    def get_happiness(self):
+        return self.happiness
     
     def get_level(self):
         return self.level
@@ -56,5 +60,7 @@ class Pokemon:
         return (self.stats[stat])
         
     def __repr__(self):
-        return repr(self.species) + " " + repr(self.moves)
+        things = [self.species, self.nickname, self.happiness, self.level, self.gender, self.nature,
+                    self.item, self.ability, self.moves, self.stats]
+        return "\n".join([str(i) for i in things])
     

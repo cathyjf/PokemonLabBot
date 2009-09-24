@@ -18,6 +18,10 @@ def parse_team_file(file):
     for p in dom.getElementsByTagName("pokemon"):
         species = p.getAttribute("species")
         nickname = get_text(p.getElementsByTagName("nickname")[0])
+        try:
+            happiness = int(get_text(p.getElementsByTagName("happiness")[0]))
+        except:
+            happiness = 255
         level = int(get_text(p.getElementsByTagName("level")[0]))
         gender = get_text(p.getElementsByTagName("gender")[0])
         nature = get_text(p.getElementsByTagName("nature")[0])
@@ -34,7 +38,7 @@ def parse_team_file(file):
             iv = int(stat.getAttribute("iv"))
             ev = int(stat.getAttribute("ev"))
             stats[name] = (iv, ev)
-        poke = pokemon.Pokemon(species, nickname, level, gender, nature, item, ability, moves, stats)
+        poke = pokemon.Pokemon(species, nickname, happiness, level, gender, nature, item, ability, moves, stats)
         team.append(poke)
     return team
 
