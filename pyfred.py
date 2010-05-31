@@ -12,10 +12,9 @@ from pokemon import Pokemon
 HOST = 'localhost'
 PORT = 8446
 USERNAME = 'Fred'
-PASSWORD = 'test'
+PASSWORD = 'qwerty'
 TEAM_DIR = "teams/"
 TEAMS = ["team6.sbt", "team7.sbt", "team8.sbt", "team9.sbt", "team10.sbt"]
-
 # An awesome, super human robot capable of beating any challenger
 class PyFred(MessageHandler):
     
@@ -238,7 +237,7 @@ class Battle:
                 if switches[i]:
                     available.append(i)
             if replace:
-                time.sleep(1.5)
+                #time.sleep(1.5)
                 self.send_switch(self.get_best_switch(available, them))
             else:
                 moves = []
@@ -261,7 +260,7 @@ class Battle:
                     self.send_switch(best_switch)
                 else:
                     best_move = self.get_best_attack(me, them)
-                    self.send_move(best_move, self.party - 1)
+                    self.send_move(best_move, 1 - self.party)
     
 ##############################################################
 
@@ -302,8 +301,13 @@ if __name__ == "__main__":
     except socket.error:
         print "Failed to connect to host {0} on port {1}".format(HOST, PORT)
         exit(1)
+    t1 = time.time()
     client.init_species("species.xml")
+    t2 = time.time()
     client.init_moves("moves.xml")
+    t3 = time.time()
+    print "Loaded species in", (t2-t1)*1000, "milliseconds"
+    print "Loaded moves in", (t3-t2)*1000, "milliseconds"
     client.set_handler(PyFred())
     client.authenticate(USERNAME, PASSWORD)
     client.run()

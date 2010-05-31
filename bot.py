@@ -282,6 +282,7 @@ class BotClient:
             #         int16 : species id
             #         if id != -1:
             #             byte: gender
+            #             byte: level
             #             byte: shiny
             
             # the bot probably doesn't need to care about this
@@ -399,7 +400,7 @@ class BotClient:
                 metagames.append((index, name, id, desc, party_size, max_team_length, bans, clauses))
             self.handler.handle_metagame_list(metagames)
         else:
-            print "Unknown code: ", code
+            pass #print "Unknown code: ", code
 
 # respond to a password challenge
 def handle_challenge(client, msg):
@@ -437,11 +438,12 @@ class MessageHandler:
         self.client.send(msg)
     
     # send a challenge to a user using the given team
-    def send_challenge(self, user, n, gen, team):
+    def send_challenge(self, user, n, gen):
         msg = OutMessage(6)
         msg.write_string(user)
         msg.write_byte(gen)
         msg.write_int(n)
+        self.client.send(msg)
             
     # accept a challenge with a user, using the given team
     def accept_challenge(self, user, team):
@@ -456,6 +458,13 @@ class MessageHandler:
         msg = OutMessage(7)
         msg.write_string(user)
         msg.write_byte(0)
+        self.client.send(msg)
+    
+    # sends a team to the server
+    def finalise_challenge(self, user, team):
+        msg = OutMessage(8)
+        msg.write_string(user)
+        self.write_team(msg, team)
         self.client.send(msg)
         
     # writes a list of Pokemon objects to a message    
@@ -489,6 +498,7 @@ class MessageHandler:
         msg.write_byte(0)
         msg.write_byte(index)
         msg.write_byte(target)
+        #msg.write_byte(1)
         self.client.send(msg)
     
     # switch to pokekmon[index] on the specified battle 
