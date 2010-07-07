@@ -9,7 +9,7 @@ from bot import *
 import parsers
 from pokemon import Pokemon
 
-HOST = '192.168.1.102'
+HOST = 'localhost'
 PORT = 8446
 USERNAME = 'Fred'
 PASSWORD = 'qwerty'
