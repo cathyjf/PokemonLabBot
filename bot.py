@@ -232,7 +232,8 @@ class BotClient:
             # string : user
             # byte   : generation
             # int32  : active party size
-            self.handler.handle_incoming_challenge(msg.read_string(), msg.read_byte(), msg.read_int())
+            # int32  : max team length
+            self.handler.handle_incoming_challenge(msg.read_string(), msg.read_byte(), msg.read_int(), msg.read_int())
         elif code == 10:
             # FINALISE_CHALLENGE
             # string : user
@@ -438,11 +439,12 @@ class MessageHandler:
         self.client.send(msg)
     
     # send a challenge to a user using the given team
-    def send_challenge(self, user, n, gen):
+    def send_challenge(self, user, n, team_length, gen):
         msg = OutMessage(6)
         msg.write_string(user)
         msg.write_byte(gen)
         msg.write_int(n)
+        msg.write_int(team_length)
         self.client.send(msg)
             
     # accept a challenge with a user, using the given team
@@ -570,8 +572,9 @@ class MessageHandler:
     # user: string - the name of the challenger
     # generation: int - the id of the generation
     # n: int - the number of pokemon for each side e.g. 2 for 2 v. 2
+    # team_length - the maximum team length for this challenge
     # ...clauses...
-    def handle_incoming_challenge(self, user, generation, n):
+    def handle_incoming_challenge(self, user, generation, n, team_length):
         pass
         
     # Sent when an opponent accepts/rejects your challenge

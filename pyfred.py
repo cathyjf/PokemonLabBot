@@ -9,7 +9,7 @@ from bot import *
 import parsers
 from pokemon import Pokemon
 
-HOST = 'localhost'
+HOST = '192.168.1.102'
 PORT = 8446
 USERNAME = 'Fred'
 PASSWORD = 'qwerty'
@@ -38,9 +38,9 @@ class PyFred(MessageHandler):
             print "Authentication failed, code ", type
             if details: print details
             
-    def handle_incoming_challenge(self, user, generation, n):
-        #too lazy to handle n > 1
-        if (n > 1):
+    def handle_incoming_challenge(self, user, generation, n, team_length):
+        #too lazy to handle n > 1 or non 6 challenges
+        if n > 1 or team_length != 6:
             self.reject_challenge(user)
         else:
             file = TEAM_DIR + TEAMS[random.randint(0, len(TEAMS) - 1)]
