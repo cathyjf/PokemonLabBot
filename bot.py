@@ -391,6 +391,11 @@ class BotClient:
             #    int16  : clause count
             #    for 0..clause count - 1:
             #        string : clause name
+            #    byte    : if timing is enabled
+            #    if timing is enabled:
+            #       short : pool length
+            #       byte  : periods
+            #       short : period length
             mcount = msg.read_short()
             metagames = []
             for i in xrange(0, mcount):
@@ -398,7 +403,12 @@ class BotClient:
                 party_size, max_team_length = msg.read_byte(), msg.read_byte()
                 bans = [msg.read_short() for i in xrange(0, msg.read_short())]
                 clauses = [msg.read_string() for i in xrange(0, msg.read_short())]
-                metagames.append((index, name, id, desc, party_size, max_team_length, bans, clauses))
+                timing = (msg.read_byte() != 0)
+                if timing:
+                    pool, periods, period_length = msg.read_short(), msg.read_byte(), msg.read_short()
+                else:
+                    pool = periods = period_length = -1
+                metagames.append((index, name, id, desc, party_size, max_team_length, bans, clauses, pool, periods, period_length))
             self.handler.handle_metagame_list(metagames)
         else:
             pass #print "Unknown code: ", code
