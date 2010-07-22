@@ -1,80 +1,75 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import xml.dom.minidom
+try:
+    import xml.etree.cElementTree as et
+except:
+    import xml.etree.ElementTree as et
 import pokemon
 
-# extracts the text from a dom node
-def get_text(parent):
-    ret = ""
-    for node in parent.childNodes:
-        if node.nodeType == node.TEXT_NODE:
-            ret += node.data
-    return ret
-
 def parse_team_file(file):
-    dom = xml.dom.minidom.parse(file)
+    tree = et.parse(file)
     team = []
-    for p in dom.getElementsByTagName("pokemon"):
-        species = p.getAttribute("species")
-        nickname = get_text(p.getElementsByTagName("nickname")[0])
+    for p in tree.findall("pokemon"):
+        species = p.get("species")
+        nickname = p.findtext("nickname")
         try:
-            happiness = int(get_text(p.getElementsByTagName("happiness")[0]))
+            happiness = int(p.findtext("happiness"))
         except:
             happiness = 255
-        level = int(get_text(p.getElementsByTagName("level")[0]))
-        gender = get_text(p.getElementsByTagName("gender")[0])
-        nature = get_text(p.getElementsByTagName("nature")[0])
-        item = get_text(p.getElementsByTagName("item")[0])
-        ability = get_text(p.getElementsByTagName("ability")[0])
+        level = int(p.findtext("level"))
+        gender = p.findtext("gender")
+        nature = p.findtext("nature")
+        item = p.findtext("item")
+        ability = p.findtext("ability")
         moves = []
-        for move in p.getElementsByTagName("move"):
-            pp = int(move.getAttribute("pp-up"))
-            name = get_text(move)
+        for move in p.findall("moveset/move"):
+            pp = int(move.get("pp-up"))
+            name = move.text
             moves.append((name, pp))
         stats = {}
-        for stat in p.getElementsByTagName("stat"):
-            name = stat.getAttribute("name")
-            iv = int(stat.getAttribute("iv"))
-            ev = int(stat.getAttribute("ev"))
+        for stat in p.findall("stats/stat"):
+            name = stat.get("name")
+            iv = int(stat.get("iv"))
+            ev = int(stat.get("ev"))
             stats[name] = (iv, ev)
         poke = pokemon.Pokemon(species, nickname, happiness, level, gender, nature, item, ability, moves, stats)
         team.append(poke)
     return team
 
 def parse_species_list(file):
-    dom = xml.dom.minidom.parse(file)
+    tree = et.parse(file)
     species = dict()
-    for s in dom.getElementsByTagName("species"):
-        name = s.getAttribute("name")
+    for s in tree.findall("species"):
+        name = s.get("name")
         temp = dict()
-        temp["id"] = int(s.getAttribute("id"))
+        temp["id"] = int(s.get("id"))
         types = []
-        for elem in s.getElementsByTagName("type"):
-            types.append(get_text(elem))
+        for elem in s.findall("types/type"):
+            types.append(elem.text)
         temp["types"] = types
         bases = []
-        for elem in s.getElementsByTagName("base"):
-            bases.append(int(get_text(elem)))
+        for elem in s.findall("stats/base"):
+            bases.append(int(elem.text))
         temp["bases"] = bases
         abilities = []
-        for elem in s.getElementsByTagName("ability"):
-            abilities.append(get_text(elem))
+        for elem in s.findall("abilities/ability"):
+            abilities.append(elem.text)
         temp["abilities"] = types
         species[name] = temp
     return species
 
 def parse_move_list(file):
-    dom = xml.dom.minidom.parse(file)
+    tree = et.parse(file)
     moves = dict()
-    for m in dom.getElementsByTagName("move"):
+    for m in tree.findall("move"):
         move = dict()
-        name = m.getAttribute("name")
-        move["id"] = int(m.getAttribute("id"))
-        move["type"] = get_text(m.getElementsByTagName("type")[0])
-        move["class"] = get_text(m.getElementsByTagName("class")[0])
-        move["power"] = int(get_text(m.getElementsByTagName("power")[0]))
-        move["target"] = get_text(m.getElementsByTagName("target")[0])
+        name = m.get("name")
+        move["id"] = int(m.get("id"))
+        move["type"] = m.findtext("type")
+        move["class"] = m.findtext("class")
+        move["power"] = int(m.findtext("power"))
+        move["target"] = m.findtext("target")
         moves[name] = move
     return moves
     
