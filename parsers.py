@@ -45,7 +45,7 @@ def parse_species_list(file):
         temp = dict()
         temp["id"] = int(s.get("id"))
         types = []
-        for elem in s.findall("types/type"):
+        for elem in s.findall("type"):
             types.append(elem.text)
         temp["types"] = types
         bases = []
@@ -55,7 +55,7 @@ def parse_species_list(file):
         abilities = []
         for elem in s.findall("abilities/ability"):
             abilities.append(elem.text)
-        temp["abilities"] = types
+        temp["abilities"] = abilities
         species[name] = temp
     return species
 
@@ -72,4 +72,3 @@ def parse_move_list(file):
         move["target"] = m.findtext("target")
         moves[name] = move
     return moves
-    
