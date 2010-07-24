@@ -3,7 +3,7 @@ from bot import *
 from pyfred import *
 from parser import *
 
-OPPONENT = 'Fred'
+OPPONENT = 'idlebot'
 USERNAME = 'test'
 PASSWORD = 'test'
 
@@ -11,7 +11,7 @@ class Challenger(PyFred):
     def challenge(self):
         file = os.path.normpath("teams/team6.sbt")
         self.challenges[OPPONENT] = file
-        self.send_challenge(OPPONENT, 1, 6, 1)
+        self.send_challenge({ 'target' : OPPONENT })
         
     def handle_registry_response(self, type, details):
         if type == 7:

@@ -12,7 +12,7 @@ from pokemon import Pokemon
 HOST = 'localhost'
 PORT = 8446
 USERNAME = 'Fred'
-PASSWORD = 'qwerty'
+PASSWORD = 'test'
 TEAM_DIR = "teams/"
 TEAMS = ["team6.sbt", "team7.sbt", "team8.sbt", "team9.sbt", "team10.sbt"]
 # An awesome, super human robot capable of beating any challenger

@@ -449,12 +449,17 @@ class MessageHandler:
         self.client.send(msg)
     
     # send a challenge to a user using the given team
-    def send_challenge(self, user, n, team_length, gen):
+    def send_challenge(self, options):
         msg = OutMessage(6)
-        msg.write_string(user)
-        msg.write_byte(gen)
-        msg.write_int(n)
-        msg.write_int(team_length)
+        msg.write_string(options['target'])
+        msg.write_byte(options.get('generation', 1))
+        msg.write_int(options.get('n', 1))
+        msg.write_int(options.get('team_length', 6))
+        metagame = options.get('metagame', 0)
+        msg.write_int(metagame)
+        if metagame != -1:
+            # TODO: actually handle this
+            pass
         self.client.send(msg)
             
     # accept a challenge with a user, using the given team
@@ -532,7 +537,7 @@ class MessageHandler:
     # Response sent after an attempted authentication
     # type: int - the message code
     #     Notable values:
-    #         4 - nonexistant account
+    #         4 - nonexistent account
     #         5 - failed challenge (wrong password)
     #         6 - Banned
     #         7 - Success!
