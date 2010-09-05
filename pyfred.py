@@ -24,8 +24,9 @@ class PyFred(MessageHandler):
         random.seed()
     
     def handle_welcome_message(self, version, name, message):
-        print name
-        print message
+        #print name
+        #print message
+        pass
     
     def handle_metagame_list(self, metagames):
         self.metagames = metagames
@@ -295,19 +296,24 @@ def get_effectiveness(type1, type2):
     return mult
 
 ##############################################################
-if __name__ == "__main__":
+def start_pyfred(host=HOST, port=PORT, username=USERNAME, password=PASSWORD):
     try:
         client = BotClient(HOST, PORT)
     except socket.error:
-        print "Failed to connect to host {0} on port {1}".format(HOST, PORT)
+        print "Failed to connect to host {0} on port {1}".format(host, port)
         exit(1)
     t1 = time.time()
     client.init_species("species.xml")
     t2 = time.time()
     client.init_moves("moves.xml")
     t3 = time.time()
-    print "Loaded species in", (t2-t1)*1000, "milliseconds"
-    print "Loaded moves in", (t3-t2)*1000, "milliseconds"
+    #print "Loaded species in", (t2-t1)*1000, "milliseconds"
+    #print "Loaded moves in", (t3-t2)*1000, "milliseconds"
     client.set_handler(PyFred())
-    client.authenticate(USERNAME, PASSWORD)
+    client.authenticate(username, password)
     client.run()
+
+if __name__ == "__main__":
+    start_pyfred()
+
+

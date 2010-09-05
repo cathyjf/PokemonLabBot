@@ -2,7 +2,7 @@
 <shoddybattle>
 
 <pokemon species="Houndoom">
-<nickname></nickname>
+<nickname>Test\Test"hi"\\\"</nickname>
 <level>100</level>
 <gender>Male</gender>
 <nature>Lonely</nature>

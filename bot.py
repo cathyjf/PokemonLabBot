@@ -92,18 +92,25 @@ class BotClient:
     
     # initialises the species list from a species.xml file
     def init_species(self, file):
-        print "Initializing species list..."
+        #print "Initializing species list..."
         self.species_list = parsers.parse_species_list(file)
     
     # initialises the move list from a moves.xml file    
     def init_moves(self, file):
-        print "Initializing move list..."
+        #print "Initializing move list..."
         self.move_list = parsers.parse_move_list(file)
     
     # sets the handler that will respond to all messages received
     def set_handler(self, handler):
         self.handler = handler
         handler.client = self
+
+    # attempt to register with the server
+    def register(self, user, password):
+        msg = OutMessage(2) # register account
+        msg.write_string(user)
+        msg.write_string(password)
+        self.send(msg)
 
     # attempt to authenticate with the server
     def authenticate(self, user, password):
