@@ -4,6 +4,9 @@
 import socket
 import hashlib
 import array
+import threading
+import Queue
+import time
 from struct import *
 from array import array
 
@@ -89,6 +92,30 @@ class BotClient:
         self.species_list = dict()
         self.move_list = dict()
         self.running = True
+        self.send_queue = Queue.Queue()
+        # proxy thread for sending messages
+        thread = threading.Thread(target=BotClient.send_proxy, args=(self,))
+        thread.daemon = True
+        thread.start()
+        # proxy thread for informing the server that we are still alive
+        thread = threading.Thread(target=BotClient.activity_proxy, args=(self,))
+        thread.daemon = True
+        thread.start()
+
+    def activity_proxy(self):
+        while True:
+            time.sleep(45)
+            self.send(OutMessage(18)) # CLIENT_ACTIVITY
+
+    def send_proxy(self):
+        while True:
+            msg = self.send_queue.get()
+            msg.finalise()
+            self.socket.sendall(msg.to_string())
+
+    # send a message
+    def send(self, msg):
+        self.send_queue.put(msg)
     
     # initialises the species list from a species.xml file
     def init_species(self, file):
@@ -120,10 +147,21 @@ class BotClient:
         msg.write_string(user)
         self.send(msg)
 
+    # calculate the secret for the challenge-response exchange
+    @staticmethod
+    def get_shared_secret(password, secret_style, salt):
+        if secret_style == 0:
+            return password
+        elif secret_style == 1:
+            return hashlib.md5(password).hexdigest()
+        elif secret_style == 2:
+            return hashlib.md5(hashlib.md5(password).hexdigest() + salt).hexdigest()
+        raise RuntimeError("Unknown secret_style of %i" % secret_style)
+
     # calculate the response to a challenge
-    def get_challenge_response(self, challenge):
+    def get_challenge_response(self, challenge, secret_style, salt):
         m = hashlib.sha256()
-        m.update(self.password)
+        m.update(BotClient.get_shared_secret(self.password, secret_style, salt))
         digest = m.digest()
         key = [digest[0:16], digest[16:32]]
         for i in range(2):
@@ -138,11 +176,6 @@ class BotClient:
         response = aes.encrypt(response, key[0], 16)
         response = aes.encrypt(response, key[1], 16)
         return response
-
-    # send a message
-    def send(self, msg):
-        msg.finalise()
-        self.socket.sendall(msg.to_string())
 
     # read exactly the specified number of bytes from the server and return the
     # result in the form of an InMessage
@@ -167,8 +200,8 @@ class BotClient:
                 length = msg.read_int()
                 # read in the whole message
                 msg = self.recvfully(length)
-            except IOError:
-                print
+            except IOError as (errno, strerror):
+                print "I/O error({0}): {1}".format(errno, strerror)
                 print "Disconnected from server"
                 break
             # call the handler, if any, for the message
@@ -425,7 +458,9 @@ def handle_challenge(client, msg):
     challenge = []
     for i in range(16):
         challenge.append(msg.read_byte())
-    response = client.get_challenge_response(challenge)
+    secret_style = msg.read_byte()
+    salt = msg.read_string()
+    response = client.get_challenge_response(challenge, secret_style, salt)
     out = OutMessage(1)
     for i in range(16):
         out.write_byte(response[i])
