@@ -291,6 +291,8 @@ class BotClient:
             # byte   : slot of pokemon
             # byte   : position of pokemon
             # byte   : whether this is a replacement
+            # byte   : index of the request sequence
+            # byte   : number of sequential requests
             # int32  : number of pokemon
             # for each pokemon
             #     byte: whether it is legal to switch to this pokemon
@@ -302,6 +304,8 @@ class BotClient:
             #         for each move:
             #             byte: whether the move is legal
             fid, slot, pos, replace = msg.read_int(), msg.read_byte(), msg.read_byte(), msg.read_byte()
+            request_sequences = msg.read_byte()
+            sequential_requests = msg.read_byte()
             num_pokes = msg.read_int()
             switches = [msg.read_byte() for i in range(num_pokes)]
             can_switch = forced = False
