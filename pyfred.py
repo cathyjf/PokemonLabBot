@@ -9,12 +9,13 @@ from bot import *
 import parsers
 from pokemon import Pokemon
 
-HOST = 'localhost'
+#HOST = 'smogon.com'
+HOST = 'lab.pokemonexperte.de'
 PORT = 8446
-USERNAME = 'Fred'
-PASSWORD = 'test'
+USERNAME = 'Fred2.1'
+PASSWORD = ''
 TEAM_DIR = "teams/"
-TEAMS = ["team6.sbt", "team7.sbt", "team8.sbt", "team9.sbt", "team10.sbt"]
+TEAMS = ["paralysis.sbt"]
 # An awesome, super human robot capable of beating any challenger
 class PyFred(MessageHandler):
     
@@ -51,6 +52,7 @@ class PyFred(MessageHandler):
             self.accept_challenge(user, team)
     
     def handle_battle_begin(self, fid, user, party):
+        print "Started battle against ", user
         b = Battle(fid, self, party, user, self.challenges[user])
         self.battles[fid] = b
         del self.challenges[user]
@@ -210,10 +212,11 @@ class Battle:
             moves.append((t, 70))
         return moves
     
-    def get_best_attack(self, attacker, defender):
+    def get_best_attack(self, attacker, defender, legal_moves):
         max_damage = 0
         max_index = -1
         for i, move in enumerate(attacker.moves):
+            if not legal_moves[i]: continue
             move = self.handler.client.move_list[move[0]]
             # stop from using dream eater and focus punch
             if (move["class"] == "Other") or (move["id"] in [144, 105]): continue
@@ -226,7 +229,7 @@ class Battle:
                 max_index = i
         return max_index
             
-    def request_action(self, slot, pos, replace, switches, can_switch, forced, moves):
+    def request_action(self, slot, pos, replace, switches, can_switch, forced, legal_moves):
         me = self.get_active(True)
         them = self.get_active(False)
         
@@ -260,7 +263,7 @@ class Battle:
                 if can_switch and (rand < switch) and (best_switch >= 0):
                     self.send_switch(best_switch)
                 else:
-                    best_move = self.get_best_attack(me, them)
+                    best_move = self.get_best_attack(me, them, legal_moves)
                     self.send_move(best_move, 1 - self.party)
     
 ##############################################################
