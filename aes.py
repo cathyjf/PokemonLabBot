@@ -8,6 +8,11 @@
 # 
 # Licensed under the MIT License ( http://www.opensource.org/licenses/mit-license.php ):
 #
+#
+# Changes by Cathy Fitzpatrick:
+#  -  Fixed a bug that caused an infinite loop in some cases.
+#
+
 import math
 
 class AES:
